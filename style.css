@@ -1,0 +1,2145 @@
+/*Checar estos colores */
+
+/*Checar estos colores */
+  
+  /*Default version*/
+  @font-face{
+    font-family: 'Monora';
+    src: url(https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FMonorama%20Medium.otf?v=1629910210228);
+    format:('opentype');
+  }
+  
+  @media screen and (orientation:landscape) {
+    .homeSection2 {
+      background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_horizontal2.jpg?v=1630424539538");
+    }
+  }
+  
+  @media screen and (orientation:portrait) {
+    .homeSection2 {
+      background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_vertical.jpg?v=1630357281430");
+    }
+  }
+
+
+/*Animaciones*/
+@keyframes moving-up {
+  from {top: 100px; color: rgba(0, 0, 0, 0);}
+  to {top: 0px; color: rgba(0, 0, 0, 1);}
+}
+@-webkit-keyframes moving-up {
+  from {top: 100px; color: rgba(0, 0, 0, 0);}
+  to {top: 0px; color: rgba(0, 0, 0, 1);}
+}
+
+
+.around-all{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.banner-subheader{
+    color:#f1f0ee;
+    font-family: Berthold_Akzidenz_Grotesk_E;
+    font-size: 3.5vh;
+    /*font-family: Telegraph_Light;*/
+}
+
+ /* .bateria_im{
+  background-size: 600px;
+  width: auto;
+  height: 100%;
+  background-position: center;
+  background-image: url('Images/Funciones/Bateria.jpg');
+}  */
+
+.ball-down{
+  padding-top: 3vh;
+}
+
+.ball-up{
+  padding-bottom: 2vh;
+}
+
+.bateria-im{
+  height: 75vh;
+  background-image: url('Images/Funciones/Bateria.jpg');
+  background-position: center;
+  background-size: cover;
+  background-position-y: +5vh;
+}
+
+.bateria-img{
+  height: auto;
+  width: 50vh;
+}
+
+.between-all{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reisize{
+  width: 50%;
+}
+
+  
+.bgd-light {
+      background: #f1f0ee !important;
+      /*color: #ebf3fc;*/
+}
+    
+.bgd-light a {
+      color: black !important;
+}
+
+.bgd-light button {
+  border-color: black !important;
+  border-width: 0.1vh;
+  color: transparent !important;
+}
+  
+.bgd-light span {
+  border-color: black !important;
+  stroke: black !important;
+}
+
+.bgd-light a:hover {
+  color: black;
+  font-weight: bolder;
+}
+
+.black-creditcard-mobile{
+  height: 84vh;
+  background-color: #000;
+}
+
+.blue-tesoreria{
+  background-color: #02303C;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.blue-tesoreria-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 75%;
+  max-width: 264px;
+  height: 100%;
+  align-items: center;
+
+}
+
+.btn-azell{
+  border-radius: 19px !important;
+  width: 200px;
+  font-family: Sequel_Sans_Medium_Head;
+  font-size: 3vh;
+  height: 7vh;
+  background-color: transparent!important;
+  border: 2px solid #38D430!important;
+  color: #FFFFFF!important;
+  /* background: linear-gradient(90deg, rgba(54,54,54,1) 0%, rgba(7,150,0,1) 0%, rgba(69,67,67,1) 100%); */
+  /* border: none !important; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.btn-azell:hover, .btn-azell:focus{
+  box-shadow: 0 0.5em 0.5em -0.2em #38D430;
+  transform: translateY(-0.25em);
+}
+
+.btn-creditcard-white{
+  border-radius: 36px!important;
+  font-family: Sequel_Sans_Light_Head;
+  border: none !important;
+  font-size: 18px!important;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 5px 6px #00000029;
+}
+
+.btn-enviar-card-form{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.btn-nosotros{
+  height: 30vh;
+  padding: 0 !important;
+  margin: 0;
+  width: -webkit-fill-available;
+  font-size: inherit !important;
+  font-weight: inherit !important;
+  color: inherit !important;
+}
+.btn-tesoreria{
+  border-radius: 14px !important;
+  width: 191px;
+  height: 48px;
+  font-family: Sequel_Sans_Medium_Head;
+  font-size: 1.4rem!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn-solicitar-card{
+  color: #ffff;
+  text-align: center;
+  align-self: center;
+  font-size: 1.1em !important;
+  height: 3em;
+  width: 10.5em;
+  justify-content: center;
+  align-items: center;
+  display: flex !important;
+
+}
+
+.btn-urbankcard{
+  border-radius: 19px !important;
+  width: 200px;
+  font-family: Sequel_Sans_Medium_Head;
+  font-size: 3vh;
+  height: 7vh;
+  background: rgb(2,0,36)!important;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,62,62,1) 44%, rgba(119,119,119,1) 97%)!important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-urbankcard-black{
+  border-radius: 19px !important;
+  width: 200px;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 2vh!important;
+  height: 5.5vh;
+  background: rgb(2,0,36)!important;
+  border: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 4px 5px 6px #00000029;
+}
+
+
+.btn-beneficios-tesoreria{
+  border-radius: 41px !important;
+  width: 250px;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 1.5em!important;
+  color: #ffff!important;
+  height: 8vh;
+  background-color: rgba(181, 181, 181, 0.35);
+  filter:(opacity=50);  
+  backdrop-filter: blur(8px);
+  border: none !important;
+  background: none;
+}
+
+.card-slim{
+  border-radius: 0.5rem !important;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  min-height: 15vh;
+  justify-content: center;
+}
+
+.card-header{
+  padding: 0;
+  margin: 0;
+  height: 30vh;
+}
+
+.card-body{
+  font-family: Telegraf_Light;
+  font-size: 3vh;
+}
+.cardtable-im{
+  height: 100vh;
+  background-image: url('Images/CreditCard/Tarjeta\ en\ mesa.png');
+  background-color: #000;
+  /* background-position: center; */
+  background-position: center;
+  background-size: cover; 
+  /* box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6); */
+  /* background: transparent url('Images/CreditCard/Tarjeta\ en\ mesa.png') 0% 0% no-repeat padding-box; */
+  /* opacity: 0.75; */
+}
+.cardtable-im-content{
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.center-all{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.city-im{
+  height: 100vh;
+  /*background-image: url('Images/FondoGrid.svg');*/
+  background-image: url('Images/Index/Fondo-home.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  alt: "Ciudad";
+}
+.citydots-im{
+  height: 100vh;
+  /*background-image: url('Images/FondoGrid.svg');*/
+  background-image: url('Images/Exchange/Fondo_Ciudad.jpeg');
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(19, 19, 19, 0.5);
+  display: flex;
+  justify-content: center;
+}
+.compu-im{
+  background-image: url('Images/Card/En\ compu.png');
+}
+
+.col-content-creditcard{
+  width: 76%;
+}
+.col-content-creditcard-calltoaction{
+  width: 71%;
+  height: 100%;
+}
+.col-creditcard-right .col-content-creditcard{
+  margin-right: 4%;
+}
+.col-creditcard-left .col-content-creditcard{
+  margin-left: 4%;
+}
+.col-creditcard-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.col-creditcard-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.col-slim-card{
+  padding-left: 2vh;
+  margin-left: 2vh;
+}
+
+.col-tesoreria-beneficios{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.constelaciones-im{
+  height: 75vh;
+  /*background-image: url('Images/FondoGrid.svg');*/
+  background-image: url('Images/Nosotros/FondoGrid.jpg');
+  background-size: cover;
+}
+
+.containter-contacto{
+  height: 60vh;
+}
+
+.core-col{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 7vh; 
+}
+.core-grid{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  top: -9vh;
+}
+
+.core-parr{
+  max-width: 19vw !important;
+}
+.core-row{
+  padding-bottom: 4vh;
+}
+.core-row h2{
+  max-width: 22vw;
+}
+
+.creditcard-calltoaction{
+  height: 100%;
+  background-image: url('Images/CreditCard/Mostrar\ tarjeta.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.creditcard-top-mobile-content{
+  max-width: 60%;
+  padding-left: 1em;
+}
+
+.div-america{
+  display: flex;
+  justify-content: end;
+}
+.div-asia{
+  padding-top: 6vh;
+}
+.div-text-contacto{
+  text-align: center;
+  width: 75%;
+}
+
+.evenly-all{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.black-section{
+  background-color: #000 !important;
+}
+
+.white-section{
+  background-color: #f1f0ee !important;
+}
+
+.grey-section{
+  background-color: #c4beb6 !important;
+}
+
+.brown-section{
+  background-color: #64513d !important;
+}
+
+.text-center{
+  text-align: center;
+}
+/*Icono flotante de whatsapp*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:20px;
+	right:20px;
+	background-color: #101820;
+	color:#f1f0ee;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+}
+/*Icono flotante de solicitar tarjeta*/
+.float-solicitar{
+  position:fixed;
+	width: 70vw;
+  max-width: 283px;
+	height:53px;
+	background-color: #fff!important;
+	color:#000;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+  top: 87%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+.floatcard-im{
+  background-image: url('Images/Card/Mano_Tarjeta.png');
+}
+.fallcard-im{
+  background-image: url('Images/Card/Gravity\ Business\ Card\ Mockup.png');
+}
+
+.footer-col{
+  width: 12.5vw;
+}
+.footer-row{
+  padding-top: 1em;
+}
+.footer-section{
+  display: flex;
+  justify-content: center;
+}
+.footer-ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer-white{
+  padding-bottom: 1em;
+  /* min-height: 13em; */
+  background-color: #FFFFFF;
+}
+
+.grafica-im{
+  width: 80%;
+  max-width: 700px;
+  height: auto;
+}
+
+.green-card{
+  background-color: teal;
+}
+
+.h1-vino{
+  color: #863a20;
+  font-family: Berthold_Akzidenz_Grotesk_BE;
+  font-size: 5vh;
+}
+
+.h1-black{
+  color: black;
+  font-family: Sequel_Sans_Light_Head;
+}
+.h1-grey{
+  color: #676767;
+  font-family: Sequel_Sans_Light_Head;
+}
+.h1-white{
+  color: #f1f0ee;
+  font-family: Sequel_Sans_Light_Head;
+}
+
+.h1-titulo{
+  padding-top: 6rem;
+  color: #101820;
+  font-family: Berthold_Akzidenz_Grotesk_BE;
+}
+
+.h1-titulo-bateria{
+  padding-top: 19vh;
+  padding-bottom: 20vh;
+  color: #101820;
+  font-family: Berthold_Akzidenz_Grotesk_BE;
+  font-size: 7vh;
+}
+
+.h2-black{
+  color: #676767;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 3vh;
+}
+.h2-big-black{
+  color: #676767;
+  font-family: Sequel_Sans_Medium_Head;
+  font-size: 5vh;
+}
+.h2-big-white{
+  color: #ffff;
+  font-family: Sequel_Sans_Medium_Head;
+  font-size: 5vh;
+}
+.h2-small-black{
+  color: #676767;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 4vh;
+}
+.h2-small-white{
+  color: #ffff;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 4vh;
+}
+
+.h2-brown{
+  color: #64513d;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+.h2-piel{
+  color: #f3be9a;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+
+.h2-vino{
+  color: #863a20;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+.h2-dark-brown{
+  color: #4b3d2a;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+
+.h2-goldish{
+  color: #e0c5ac;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+
+.h2-white{
+  color: #ffff;
+  font-size: 3vh;
+  font-family: Sequel_Sans_Light_Head;
+
+}
+
+.h3-black{
+  color: black;
+  font-size: 3vh;
+  font-family: Sequel_Sans_Light_Head;
+}
+.h3-grey{
+  color: #676767;
+  font-size: 3vh;
+  font-family: Sequel_Sans_Light_Head;
+}
+.h3-white{
+  color: #ffff;
+  font-size: 3vh;
+  font-family: Sequel_Sans_Light_Head;
+}
+
+/* .h2-slim-card{
+  margin-bottom: 0%;
+  font-size: 2.5vh !important;
+} */
+
+.h2-vino{
+  color: #863a20 !important;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+
+
+
+
+.h2-orange{
+  color: #e69e6c;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+
+.h2-gold{
+  color: #c8a977;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+}
+
+.header .navbar {
+  background-color: transparent !important;
+}
+
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+html { scroll-behavior: smooth; }
+
+.icon-col-animation{
+  animation: moving-up 1s;
+  /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
+  -webkit-animation: moving-up 1s; 
+  position:relative;
+}
+
+.imagen-centrada{
+  height: 30vh;
+  align-self:flex-end;
+  margin-top: 4vh;
+  position:absolute;
+  top:28vh;
+  left:41%
+}
+
+.img-sofom{
+  width: 53vh; 
+  align-self: center;
+}
+.img-tarjeta{
+  width: 53vh; 
+  align-self: center;
+}
+.img-tarjeta-small{
+  width: 100%;
+}
+
+.img-app{
+  height: 65vh;
+  width: auto;
+}
+
+.input_field{
+  border: 0;
+  padding: 0;
+  z-index: 1;
+  background-color: transparent;
+  border-bottom: 2px solid #eee;
+  font: inherit;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+ a.link-black:hover{
+  color: #e69e6c !important;
+}
+
+.laptop-im{
+  background-image: url('Images/CoreBancario/TarjetaE.png');
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+}
+
+/*/////////////////////////////////////Form///////////////////////////////////////////////////////////*/
+
+.login-box {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input, .login-box .user-box select{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box select{
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box option{
+  background-color: #3f3f3f;
+  color: white;
+  width: 80%;
+}
+
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -27px;
+  left: 0;
+  color: #3178EC;
+  font-size: 12px;
+}
+
+.login-box .user-box input:focus:invalid ~ label {
+  top: -27px;
+  left: 0;
+  color: rgb(189, 22, 22);
+  font-size: 12px;
+}
+
+.login-box .user-box input:invalid{
+  color: rgb(189, 22, 22);
+  align-self: flex-end;
+}
+
+.login-box .user-box input:placeholder-shown ~label{
+  color: transparent;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #3178EC;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+}
+
+.btn-enviar-card-form{
+  position: relative;
+  display: inline-block;
+  /* padding: 10px 20px; */
+  color: #3178EC;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+.btn-enviar-card-form:hover{
+  color: #ffff;
+}
+
+.btn-enviar-div{
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #3178EC;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  letter-spacing: 4px;
+}
+
+.btn-enviar-div:hover{
+  background: #3178EC;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #3178EC,
+              0 0 25px #3178EC,
+              0 0 50px #3178EC,
+              0 0 100px #3178EC;
+}
+
+.btn-enviar-div span{
+  position: absolute;
+  display: block;
+}
+
+.login-box a span{
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #3178EC);
+  animation: btn-anim1 1s linear infinite;
+}
+
+.btn-enviar-div span:nth-child(2){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #3178EC);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #3178EC);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+.btn-enviar-div span:nth-child(3) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #3178EC);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #3178EC);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+.btn-enviar-div span:nth-child(4) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #3178EC);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #3178EC);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+.btn-enviar-div span:nth-child(5) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #3178EC);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+.logos-sofom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 32vh;
+  justify-content: flex-start;
+}
+
+.logos-sofom-img{
+  width: 5em
+}
+
+.main-col{
+  padding-left: 7vw;
+}
+.mapa-contacto{
+  height: 62vh;
+}
+.modal-content{
+  background-color: rgba(66, 66, 66, 0.9)!important;
+  /* background: rgba(73, 74, 74, 0.7); */
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+.nav-link{
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+}
+.nav-link-big{
+  font-size: 1.4em;
+}
+.navbar-centered{
+  justify-content: end!important;
+}
+.navbar-collapse-centered{
+  justify-content: center;
+}
+
+.navbar-thick{
+  height: 10vh;
+}
+#navbar-white{
+  background-color: #ffff;
+}
+#navbar-opaque{
+  background-color: rgba(181, 181, 181, 0.35);
+  filter:(opacity=50);  
+  backdrop-filter: blur(8px);
+}
+
+#navbar-opaque-light{
+  background-color: rgba(255, 255, 255, 0.35);
+  filter:(opacity=50);  
+  backdrop-filter: blur(8px);
+}
+
+#navbar-opaque a{
+  color: white;
+}
+#navbar-transparent{
+  background-color: transparent;
+}
+
+.navigation-funciones{
+  position: relative;
+  bottom: -19px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-height: 30vh;
+  height: 10vh;
+  padding-inline-start: 0;
+}
+
+.navigation-funciones-li{
+  list-style: none;
+  cursor: pointer;
+  margin: 0 10px;
+  border-radius: 4px;
+  background: #fff;
+  padding: 3px 3px 0;
+  opacity: 0.7;
+  transition: 0.5s;
+} 
+  
+.overlaps{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+.parr-black-small{
+  font-family: Sequel_Sans_Light_Head;
+  color: #494A4A;
+  font-size: 1em;
+}
+.parr-creditcard-calltoaction{
+  color: #000;
+  font-size: 2vh;
+  font-family: Sequel_Sans_Light_Head;
+  padding-top: 3.8em;
+  width: 50%;
+  align-self: flex-start;
+  font-weight: bold;
+}
+.parr-goldish{
+  color: #e0c5ac;
+  font-family: Telegraf_Light;
+  font-size: 3vh;
+}
+
+
+.parr-white{
+  color: #ffff;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 2.5vh;
+}
+
+.parr-white-small{
+  color: #ffff;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 2vh;
+}
+.parr-white-square{
+  color: #ffff;
+  font-family: 'Monora';
+  font-size: 2.5vh;
+}
+
+.parr-piel{
+  color: #f3be9a;
+  font-family: Telegraf_Light;
+  font-size: 3vh;
+}
+
+.parr-orange{
+  color: #e69e6c;
+  font-family: Telegraf_Light;
+  font-size: 3vh;
+}
+
+.parr-vino{
+  color: #863a20;
+  font-family: Telegraf_Light;
+  font-size: 3vh;
+}
+
+
+
+/* .parr-card-slim{
+  padding-right: 1vh;
+  padding-top: 1vh;
+  font-family: Telegraf_Light;
+  font-size: 2vh;
+} */
+
+.black-card{
+  /* background-color: black; */
+  background-image: url('Images/Inversiones/Negro.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.685);
+  background-position: center;
+  background-size: cover;
+  
+}
+.blue-card{
+  background-color: #3178EC ;
+}
+.bluepearl-card{
+  background-color: #EBF3FC;
+  min-height: 100vh;
+
+}
+.dark-green-card{
+  background-image: url('Images/Inversiones/Azul.jpg');
+  background-color: #02303C;
+}
+
+.peach-card{
+  background-color: #fdf0e7 !important;
+}
+
+.pearl-card{
+  background-image: url('Images/CoreBancario/Blanco.jpg');
+  background-color: #c4beb6;
+  background-position: center;
+  background-size: cover;
+}
+
+.tesoreria-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.transparent-card{
+  background-color: transparent;
+}
+
+
+
+
+
+
+.row-beneficios{
+  --bs-gutter-x: 0 !important;
+}
+
+.row-left{
+  width: 60%;
+}
+
+
+.section-link{
+  text-decoration: none;
+  
+}
+.section-link-grey{
+  text-decoration: none;
+}
+.section-link:hover{
+  color: #676767;
+}
+.section-link-grey:hover{
+  color: #00303C;
+}
+.section-porque-title{
+  max-width: 359px;
+  text-align: center;
+}
+.section-solucion{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-evenly;
+}
+.section-title{
+  text-align: end;
+  max-width: 15vw;
+}
+.section-title-medium{
+  text-align: end;
+  max-width: 21vw;
+}
+
+.section-title-large{
+  text-align: end;
+  max-width: 45vw;
+}
+.section-title-latamsols{
+  max-width: 28vw;
+  text-align: end;
+}
+.socialmedia-icon{
+  color: #494A4A;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  padding-bottom: 0.6em;
+}
+
+
+.square{
+  border-radius: 0 !important;
+}
+.square-opaque{
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff47 0% 0% no-repeat padding-box;
+  border-radius: 33px;
+  opacity: 1;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+  width: 20em;
+}
+.square-opaque-content{
+  width: 62%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stairs-im{
+  background-image: url('Images/CoreBancario/Fondo_Escaleras.jpeg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+
+.suncity-im{
+  background-image: url('Images/Tesoreria/Edificios.jpg');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+}
+
+.techo-im{
+  background-image: url('Images/Inversiones/Fondo_Techo.jpeg');
+  box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6);
+}
+.techo-im-dark{
+  background-color: #3f3f3f;
+  /* background-image: url('Images/Sofom/3.png'); */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
+  background-position: center;
+  background-size: cover;
+}
+.text-right{
+  text-align: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+
+.turbines-im{
+  background-image: url('Images/Sofom/3.png');
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+}
+
+
+.transparent-card{
+  background-color: transparent !important;
+}
+
+.gold-card{
+  background-color: #e0c5ac !important;
+}
+
+/*Video de fondo paneles*/
+.video-paneles {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.vid-background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-paneles .container {
+  position: relative;
+  z-index: 2;
+}
+
+.video-paneles .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.video-slider{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.video-slider-section{
+  position: relative;
+  width: 100%;
+  height: 75vw;
+  display: block;
+  text-align: -webkit-center;
+}
+
+.video-slider-vid{
+  position: relative;
+  top: 5%;
+  left: 0%;
+  max-width: 80%;
+  object-fit: cover;
+  
+  object-position: center;
+}
+
+/* .video-slider-icon{
+  max-height: 10vh;
+  height: 15vw;
+  transition: 0.5s;
+} */
+
+.video-slider-icon:hover{
+  height: 15vw;
+}
+
+section .navigation-funciones li img{
+  height: 10vw;
+  transition: 0.5s;
+}
+
+section .navigation-funciones li:hover{
+  opacity: 1;
+}
+
+
+
+/*////////////////////////////////////////////////////////////*/
+
+
+.height-25{
+  height: 25vh;
+}
+.height-30{
+  height: 30vh;
+}
+.height-60{
+  height: 60vh;
+}
+.height-70{
+  height: 70vh;
+}
+.height-75{
+  height: 75vh;
+}
+.height-85{
+  height: 85vh;
+}
+.height-100{
+  height: 100vh;
+}
+.height-150{
+  height: 150vh;
+}
+
+
+
+.icono-velta{
+  display: block;
+  height: auto;
+  width: 15vh;
+}
+
+.img-ally{
+  position: absolute;
+  top: -30px;
+  left: 2%;
+  margin-left: -30px;
+  width: 60px !important;
+  height: 60px;
+}
+
+
+.img-bateria{
+  width: 30vh;
+  height: auto;
+}
+
+.logo-azell{
+  width: 300px;
+}
+.logo-velta{
+  display: block;
+  height: auto;
+  width: 82px;
+  padding-top: 5px;
+  margin-right: 15px;
+  /*filter: invert(99%) sepia(100%) saturate(463%) hue-rotate(201deg) brightness(120%) contrast(100%);*/
+}
+
+.logo-urbank{
+  width: inherit;
+}
+.logo-urbank-tesoreria{
+  width: 90px;
+  height: fit-content;
+  align-self: center;
+}
+.logo-urbk-navbar{
+  width: 41px;
+}
+
+.middle{
+  align-self: center;
+}
+
+.min-height-100{
+  min-height: 100vh;
+}
+.min-height-95{
+  min-height: 95vh;
+}
+.min-height-90{
+  min-height: 90vh;
+}
+.min-height-70{
+  min-height: 70vh;
+}
+.min-width-300{
+  min-width: 300px;
+}
+.min-width-50vw{
+  min-width:50vw;
+}
+.min-width-65vw{
+  min-width: 65vw;
+}
+
+.mustard-card{
+  background-color: #f3be9a !important;
+}
+
+.orange-card{
+  background-color: #e69e6c !important;
+}
+
+/*.opaque-50{
+  background-image: linear-gradient(to left, rgba(0,0,0,0.75) -26.48%, rgba(0,0,0,0.75) 73.52%);
+}*/
+
+.runway_im{
+  /* height: 75vh; */
+  background-image: url('Images/Home/FondoPasillo.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.text-small{
+  font-size: x-small;
+}
+
+.turbinas_im{
+  height: 100vh;
+  background-image: url('Images/turbinas.jpg');
+}
+
+
+.white-card{
+  background-color: white;
+}
+
+.wine-card{
+  background-color: #883c1c !important;
+}
+
+
+.formscolor{
+  border-radius: 8.5px !important;
+  background-color: #494a4a !important;
+  color: #ebf3fc !important;
+}
+
+.mt-6 {
+  margin-top: 6rem !important;
+}
+
+/*linear-gradient(to left, rgba(0,0,0,0.4) -26.48%, rgba(0,0,0,0.4) 73.52%)*/
+
+
+
+.navbar-toggler{
+  border: none !important;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+.parr-black{
+  color: #676767;
+  font-family: Sequel_Sans_Light_Head;
+  font-size: 2.5vh;/*Era 3vh*/
+}
+
+.parr-black-bold{
+  color: #676767;
+  font-family: Sequel_Sans_Medium_Head;
+  font-size: 2.4vh;
+}
+
+
+.parr-white-bold{
+  color: #ffff;
+  font-family: Sequel_Sans_Medium_Head;
+  font-size: 3vh;
+}
+
+.parr-small{
+  font-size: 2vh !important;
+}
+
+
+
+.parr-orange{
+  color: #e69e6c;
+}
+
+.parr-vino{
+  color: #863a20;
+}
+
+.pt-6 {
+  padding-top: 6rem !important;
+}
+
+.active {
+  color: #42474d !important;
+}
+
+.active:hover {
+  color: #42474d !important;
+}
+
+body {
+    background-color: #f1f0ee !important;
+}
+.body-white{
+  background-color: #f1f0ee;
+}
+
+body h1{
+  color: #ebf3fc
+}
+
+body label{
+  color: #3178ec;
+}
+
+#privacy {
+  color: #ebf3fc;
+}
+
+.homeHeader {
+  color: #3178ec;
+  font-size: 3.3rem;
+  font-weight: 200;
+}
+
+.homeSection1 {
+  background-color:#101820; 
+  color: #f1f0ee;
+}
+
+.homeSection2 {
+  background-color:#f1f0ee;
+  color: black;
+}
+
+.homeSection3 {
+  background-color:#3178ec;
+}
+
+.context {
+  width: 100%;
+  position: relative;
+}
+
+.context h3 {
+  text-align: center;
+  color: #101820;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.context h2 {
+  text-align: center;
+  color: #f1f0ee;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+/*Default version*/
+@font-face{
+  font-family: 'Monora';
+  src: url(https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FMonorama%20Medium.otf?v=1629910210228);
+  format:('opentype');
+}
+
+@font-face {
+  font-family: 'Berthold_Akzidenz_Grotesk_BE';
+  font-weight: bold;
+  src: url("Fonts/AkzidenzGroteskBE-BoldEx.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Berthold_Akzidenz_Grotesk_E';
+  src: url("Fonts/AkzidenzGroteskBE-Ex.otf") format("opentype");
+}
+
+@font-face {
+  font-family: 'Telegraf_Light';
+  src: url("Fonts/Telegraf-Light.otf") format("opentype");
+}
+
+@font-face{
+  font-family: 'Sequel_Sans_Light_Head';
+  src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Light\ Head.ttf") format("opentype");
+}
+
+@font-face{
+  font-family: 'Sequel_Sans_Book_Head';
+  src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Book\ Head.ttf") format("opentype");
+}
+
+@font-face{
+  font-family: 'Sequel_Sans_Medium_Head';
+  src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Medium\ Head.ttf") format("opentype");
+}
+
+@media screen and (orientation:landscape) {
+  .homeSection2 {
+    background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_horizontal2.jpg?v=1630424539538");
+  }
+}
+
+@media screen and (orientation:portrait) {
+  .homeSection2 {
+    background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_vertical.jpg?v=1630357281430");
+  }
+}
+
+@media (min-width:769px){
+    /*Desktop css*/
+    .bgd-light a {
+      color: black !important;
+    }
+    .black-creditcard-mobile{
+      display: none;
+    }
+    .core-grid{
+      top: -9vh;
+    }
+    .creditcard-top-mobile{
+      display: none;
+    }
+    .float-solicitar{
+      display: none!important;
+    }
+
+    .h2-slim-card{
+      margin-bottom: 0%;
+      font-size: 3.5vh !important;
+    }
+    .icon-col{
+      max-width: 330px !important;
+    }
+    .navbar-collapse{
+      padding-right: 5vw;
+    }
+    .parr-card-slim{
+      padding-right: 5vh;
+      padding-top: 5vh;
+      font-family: Telegraf_Light;
+      font-size: 1.5rem;
+    }
+    .row-section-porque{
+      height: 85vh;
+    }
+    .section-porque{
+      height: 85vh;
+    }
+    .section-text-medium{
+      max-width: 36vw;
+    }
+    .white-card-div{
+      max-width: 334px;
+    }
+
+    .full-text { display: inline-block; }
+    .short-text { display: none; }
+}
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .bgd-light a {
+    color: #f1f0ee !important;
+  }
+  .blue-tesoreria{
+    height: 100vh;
+  }
+  .bluepearl-card{
+    height: 150vh;
+    top: -51vh;
+  }
+  .containter-contacto{
+    height: 30vh;
+    min-width: 300px;
+    width: 50vw !important;
+    text-align: center;
+  }
+  .col-asia{
+    padding-top: 11vh;
+  }
+  .div-america{
+    justify-content: center;
+  }
+
+  .footer-col{
+    padding-bottom: 2em;
+  }
+
+  .parr-card-slim{
+    padding-right: 1vh;
+    padding-top: 1vh;
+    font-family: Telegraf_Light;
+    font-size: 3vh;
+  }
+  .h2-slim-card{
+    margin-bottom: 0%;
+    font-size: 3.5vh !important;
+  }
+  .h2-small-white{
+    font-size: 3vh;
+  }
+  .icon-col{
+    text-align: center;
+  }
+  .img-uniswap{
+    top: 11vh; 
+    left: 54%;
+    height: 21vh;
+    opacity: 33%;
+  }
+  
+  .logos-sofom-img{
+    width: 32vw;
+  }
+  .navbar-collapse{
+    padding-right: 0;
+  }
+  .opaque-50 {
+    background-image: linear-gradient(to left, rgba(0,0,0,0.75) -26.48%, rgba(0,0,0,0.75) 73.52%);
+  }
+  .pearl-card{
+    top: -51vh;
+  }
+  .row-corebancario{
+    padding-bottom: 10vh;
+  }
+  .row-map{
+    height: 82vh;
+  }
+  .section-title{
+    align-self: auto;
+  }
+  .section-title-medium{
+    text-align: center;
+    max-width: 75vw;
+  }
+  .section-text-column{
+    align-items: center;
+  }
+  .section-text-row{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .section-text-medium{
+    max-width: 70vw;
+  }
+  .section-metodologia{
+    top: -53vh;
+  }
+  .subtitle-card-twocols{
+    font-size: 2vh;
+  }
+  .tesoreria-section{
+    top: -50vh;
+  }
+  
+  .short-text { display: inline-block; }
+  .full-text { display: none; }
+
+  .uniswap-title{
+    text-align: center;
+    max-width: none;
+  }
+
+}
+
+@media (max-width:1030px){
+  /*Between MD and LG screen size css*/
+  .blue-tesoreria-div{
+    max-width: 75vw;
+    height: 60vh;
+  }
+  .footer-col{
+    padding-bottom: 2em;
+  }
+  .parr-creditcard-calltoaction{
+    width: 78%;
+  }
+  .row-left{
+    width: 100%;
+  }
+  .tesoreria-section{
+    top: -37vh;
+
+  }
+}
+
+@media (max-width:768px){
+  /*MD screen size css*/
+  .blue-tesoreria{
+    height: 100vh;
+  }
+  .blue-tesoreria-div{
+    max-width: none;
+  }
+  .core-parr{
+    max-width: 35vw !important;
+  }
+  .laptop-im{
+    height: 50vh;
+  }
+}
+
+ @media (max-width:769px) and (max-height:1025px) {
+    /*Mobile css*/
+    .bgd-light a {
+      color: #f1f0ee !important;
+    }
+    .black-card-sofom{
+      top: -49vh;
+    }
+    .black-section-exchange{
+      top: -59vh;
+    }
+    .blue-tesoreria{
+      height: 100vh;
+    }
+    .bluepearl-card{
+      height: 150vh;
+      top: -51vh;
+    }
+    .btn-urbankcard-black{
+      display: none!important;
+    }
+    .btn-tesoreria{
+      width: 260px;
+      height: 73px;
+      display: flex!important;
+    }
+    .cardtable-im-content{
+      justify-content: start;
+    }
+    .col-asia{
+      padding-top: 11vh;
+    }
+    .col-content-creditcard{
+      width: 100%;
+    }
+    .col-creditcard-left{
+      align-items: center;
+      padding: 0!important;
+    }
+    .col-creditcard-right{
+      align-items: center;
+      padding: 0!important;
+    }
+    .col-creditcard-right .col-content-creditcard{
+      margin-right: 0;
+      padding-top: 2em;
+      padding-bottom: 2em;
+      
+    }
+    .col-creditcard-left .col-content-creditcard{
+      margin-left: 0;
+      padding-bottom: 4em;
+    }
+   
+    
+    .containter-contacto{
+      height: 30vh;
+      min-width: 300px;
+      width: 50vw !important;
+      text-align: center;
+    }
+    .core-grid{
+      top: -159vh;
+    }
+    .core-parr{
+      max-width: 50vw !important;
+    }
+    .core-row h2{
+      max-width: 60vw;
+    }
+    .creditcard-calltoaction{
+      height: 85vh;
+    }
+    .creditcard-top-row{
+      display: none!important;
+    }
+    .dark-green-card-productos{
+      top: -49vh;
+    }
+    .div-america{
+      justify-content: center;
+    }
+    .div-text-contacto{
+      width: 100%;
+    }
+    .h2-big-white{
+      font-size: 4vh;
+    }
+    .h2-slim-card{
+      margin-bottom: 0%;
+      font-size: 3.5vh !important;
+    }
+    .h2-small-white{
+      font-size: 2.7vh;
+    }
+    .icon-col{
+      text-align: center;
+    }
+    .img-uniswap{
+      top: 11vh; 
+      left: 54%;
+      height: 21vh;
+      opacity: 33%;
+    }
+
+    .img-tarjeta{
+      width: 44vh;
+    }
+    
+    .img-app{
+      height: 55vh;
+    }
+    .logo-azell{
+      width: 241px;
+    }
+    .logos-sofom-img{
+      width: 6em;
+    }
+    .navbar-collapse{
+      padding-right: 0;
+    }
+    .navbar-permanent-content{
+      display: flex!important;
+    }
+    .nav-link{
+      color: rgb(255 255 255 / 75%)!important;
+      
+    }
+    .opaque-50 {
+      background-image: linear-gradient(to left, rgba(0,0,0,0.75) -26.48%, rgba(0,0,0,0.75) 73.52%);
+    }
+    .parr-card-slim{
+      padding-right: 1vh;
+      padding-top: 1vh;
+      font-family: Telegraf_Light;
+      font-size: 3vh;
+    }
+    .parr-white{
+      font-size: 2.5vh;
+    }
+    .pearl-card{
+      top: -51vh;
+    }
+    .row-corebancario{
+      padding-bottom: 10vh;
+    }
+    .row-left{
+      width: 100%;
+    }
+    .row-map{
+      height: 82vh;
+    }
+    .section-porque-title{
+      padding-top: 2em;
+    }
+    .section-solucion{
+      top: -58vh;
+    }
+    .section-title{
+      align-self: auto;
+      max-width: none;
+    }
+    
+    .section-title-medium{
+      text-align: center;
+      max-width: 75vw;
+    }
+    .section-title-latamsols{
+      align-self: center;
+      padding-bottom: 3em;
+    }
+    .section-text-column{
+      align-items: center;
+    }
+    .section-text-row{
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+    }
+    .section-text-medium{
+      max-width: 70vw;
+    }
+    .section-metodologia{
+      top: -53vh;
+    }
+    .solucion-personal{
+      padding-bottom: 5vh;
+    }
+    .subtitle-card-twocols{
+      font-size: 3vh;
+    }
+    .tesoreria-section{
+      top: -50vh;
+    }
+    
+    .short-text { display: inline-block; }
+    .full-text { display: none; }
+
+    .uniswap-title{
+      text-align: center;
+      max-width: none;
+    }
+
+ }
+
+ @media (max-width:576px) and (max-height:1024px) {
+  /*Mobile extra small css*/
+  .floatcard-im{
+    height: 13em;
+  }
+  .fallcard-im{
+    height: 13em;
+  }
+ }
+
+.video-animation {
+  max-width: 90%;
+  height: auto;
+}
+
+.image-graph {
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+#content {
+  position: relative;
+}
+#content img {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
