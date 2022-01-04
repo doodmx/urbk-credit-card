@@ -161,7 +161,7 @@
   border-radius: 36px!important;
   font-family: Sequel_Sans_Light_Head;
   border: none !important;
-  font-size: 18px!important;
+  font-size: 14px!important;
   align-items: center;
   justify-content: center;
   box-shadow: 4px 5px 6px #00000029;
@@ -320,6 +320,10 @@
   width: 71%;
   height: 100%;
 }
+.col-content-nuestras-oficinas{
+  text-align: start;
+  padding-left: 5em;
+}
 .col-creditcard-right .col-content-creditcard{
   margin-right: 4%;
 }
@@ -400,13 +404,26 @@
   max-width: 60%;
   padding-left: 1em;
 }
+.desk-im{
+  height: 85vh;
+  background-image: url('Images/Contacto/Leyendo\ mails.png');
+  background-color: #000;
+  /* background-position: center; */
+  background-position: center;
+  background-size: cover; 
+  /* box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6); */
+  /* background: transparent url('Images/CreditCard/Tarjeta\ en\ mesa.png') 0% 0% no-repeat padding-box; */
+  /* opacity: 0.75; */
+}
 
 .div-america{
   display: flex;
   justify-content: end;
+  
 }
 .div-asia{
   padding-top: 6vh;
+  
 }
 .div-text-contacto{
   text-align: center;
@@ -470,6 +487,8 @@
   left: 48%;
   transform: translate(-50%, -50%);
 }
+
+
 .floatcard-im{
   background-image: url('Images/Card/Mano_Tarjeta.png');
 }
@@ -998,9 +1017,11 @@ html { scroll-behavior: smooth; }
 .main-col{
   padding-left: 7vw;
 }
+
 .mapa-contacto{
-  height: 62vh;
+  height: 80vh;
 }
+
 .modal-content{
   background-color: rgba(66, 66, 66, 0.9)!important;
   /* background: rgba(73, 74, 74, 0.7); */
@@ -1022,6 +1043,7 @@ html { scroll-behavior: smooth; }
 }
 .navbar-collapse-centered{
   justify-content: center;
+  padding: 0;
 }
 
 .navbar-thick{
@@ -1047,6 +1069,7 @@ html { scroll-behavior: smooth; }
 }
 #navbar-transparent{
   background-color: transparent;
+  height: 15vh;
 }
 
 .navigation-funciones{
@@ -1182,6 +1205,14 @@ html { scroll-behavior: smooth; }
   justify-content: space-evenly;
 }
 
+#top-of-site-pixel-anchor {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  top: 1800px;
+  left: 0;
+}
+
 .transparent-card{
   background-color: transparent;
 }
@@ -1198,7 +1229,16 @@ html { scroll-behavior: smooth; }
 .row-left{
   width: 60%;
 }
-
+.row-map{
+  width: 100%;
+  height: 100%;
+  margin: 0!important;
+}
+.row-nuestras-oficinas{
+  padding-top: 5em;
+  padding-bottom: 2em;
+  text-align: center;
+}
 
 .section-link{
   text-decoration: none;
@@ -1729,9 +1769,27 @@ body label{
     .creditcard-top-mobile{
       display: none;
     }
-    .float-solicitar{
-      display: none!important;
+    .div-america{
+      transform: translate(0px, 0px);
     }
+    .div-asia{
+      transform: translate(-80px, -22px);
+    }
+    /* .float-solicitar{
+      display: none!important;
+    } */
+    
+    #float-solicitar-home{
+      display: none;
+    }
+    #float-solicitar-contacto{
+      display: flex;
+      top: 7%;
+      left: 83%;
+      width: 190px;
+      height: 35px;
+    }
+   
 
     .h2-slim-card{
       margin-bottom: 0%;
@@ -1740,14 +1798,28 @@ body label{
     .icon-col{
       max-width: 330px !important;
     }
-    .navbar-collapse{
+    /* .navbar-collapse{
       padding-right: 5vw;
+    } */
+    #mapa-america{
+      width: 100%;
+      height: 75vh;
     }
+    #mapa-asia{
+      height: 67vh;
+    }
+    .map-container{
+      justify-content: start;
+    }
+    
     .parr-card-slim{
       padding-right: 5vh;
       padding-top: 5vh;
       font-family: Telegraf_Light;
       font-size: 1.5rem;
+    }
+    .row-map{
+      padding-bottom: 2em;
     }
     .row-section-porque{
       height: 85vh;
@@ -1789,6 +1861,7 @@ body label{
   }
   .div-america{
     justify-content: center;
+    
   }
 
   .footer-col{
@@ -1833,9 +1906,7 @@ body label{
   .row-corebancario{
     padding-bottom: 10vh;
   }
-  .row-map{
-    height: 82vh;
-  }
+  
   .section-title{
     align-self: auto;
   }
@@ -1940,10 +2011,17 @@ body label{
       justify-content: start;
     }
     .col-asia{
-      padding-top: 11vh;
+      padding-top: 0;
+    }
+    .col-auxiliar{
+      display: none;
     }
     .col-content-creditcard{
       width: 100%;
+    }
+    .col-content-nuestras-oficinas{
+      text-align: center;
+      padding-left: 0;
     }
     .col-creditcard-left{
       align-items: center;
@@ -1995,6 +2073,15 @@ body label{
     .div-text-contacto{
       width: 100%;
     }
+    .float-solicitar{
+      display: flex!important;
+    }
+    .float-solicitar-azul{
+      background-color: red!important;
+    }
+    #float-solicitar-contacto{
+      height: 40px;
+    }
     .h2-big-white{
       font-size: 4vh;
     }
@@ -2028,12 +2115,26 @@ body label{
     .logos-sofom-img{
       width: 6em;
     }
+    #mapa-america{
+      width: 100%;
+    }
+    #mapa-asia{
+      height: 53vh;
+      transform: translate(76px,-10px);
+    }
+    .mapa-contacto{
+      height: 62vh;
+    }
+    .map-container{
+      justify-content: center;
+    }
     .navbar-collapse{
       padding-right: 0;
     }
     .navbar-permanent-content{
       display: flex!important;
     }
+    
     .nav-link{
       color: rgb(255 255 255 / 75%)!important;
       
@@ -2059,9 +2160,7 @@ body label{
     .row-left{
       width: 100%;
     }
-    .row-map{
-      height: 82vh;
-    }
+    
     .section-porque-title{
       padding-top: 2em;
     }

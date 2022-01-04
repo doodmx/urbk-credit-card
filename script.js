@@ -46,10 +46,39 @@ if(o > 125) {
     });
   });
   
-  observer.observe(document.querySelector('.icon-row'));
+  // observer.observe(document.querySelector('.icon-row'));
 
 
   function videoUrl(hmmmmm){
     document.getElementById("slider").src = hmmmmm;
   }
+
+  window.onscroll = function (e) {
+    console.log(window.scrollY);
+  };
+
+
+  ///////////////////////////////////////////////////////////////////////////////
+  if (
+    "IntersectionObserver" in window &&
+    "IntersectionObserverEntry" in window &&
+    "intersectionRatio" in window.IntersectionObserverEntry.prototype
+  ) {
+      var element = document.getElementById("float-solicitar-contacto");
+      let observer = new IntersectionObserver(entries => {
+        
+        
+        
+        if (entries[0].boundingClientRect.y < 0) {
+          console.log("Probando")
+          element.classList.add("float-solicitar-azul");
+          // document.body.classList.add("header-not-at-top");
+        } else {
+          element.classList.remove("float-solicitar-azul");
+          // document.body.classList.remove("header-not-at-top");
+        }
+      });
+      observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
+      }
+
 
