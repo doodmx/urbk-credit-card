@@ -9,6 +9,7 @@
         <meta property="og:site_name" content="Inversiones">
         
         <title>Contacto - URBK Card</title>
+        <link rel="icon" href="Images/Card/urbank_icon.png">
         <!-- Favicon icon -->
         <!-- Custom Stylesheet -->
         <link rel="canonical" href="https://urbk.mx/creditcard.html">
@@ -41,11 +42,8 @@
         <!-- Global site tag (gtag.js) - Google Ads: 10800509850 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10800509850"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-10800509850'); </script>
     </head>
     <body>
-        
+
         <header>
-
-            
-
             <nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-centered  text-start" id="navbar-transparent">
                 <!-- <a class="navbar-brand fw-bold text-center d-block ms-3" href="/">
                     <div class="logo-velta" ><img class="logo-urbank" src="Images/Index/urbk_black.png" loading="lazy"></div>
@@ -72,8 +70,14 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-center" href="sofom.html">Sobre Urbk</a>
+                            <a class="nav-link text-center" href="sobre.html">Sobre Urbk</a>
                         </li>
+                        <li>
+                            <div style="display: flex; justify-content:center;">
+                                <a href="form.html" class="float-solicitar float-solicitar-azul btn-creditcard-white btn" id="float-solicitar-contacto" style="display: flex;">Solicitar tarjeta</a>
+                            </div>
+                        </li>
+                        
                     </ul>
                 </div>
             </nav>
@@ -84,7 +88,7 @@
         </header>
 
         <div style="display: flex; justify-content:center;">
-            <a href="card.html" class="float-solicitar float-solicitar-azul btn-creditcard-white btn" id="float-solicitar-contacto" style="display: flex;">Solicitar tarjeta</a>
+            <a href="form.html" class="float-solicitar float-solicitar-azul btn-creditcard-white btn" id="float-solicitar-contacto" style="display: flex;">Solicitar tarjeta</a>
         </div>
 
         <!--Seccion de imagen grande-->
@@ -100,7 +104,7 @@
             <div class="row row-nuestras-oficinas">
                 <div class="col col-auxiliar"></div>
                 <div class="col col-12 col-md-4 col-nuestras-oficinas order-md-2">
-                    <div class="col-content-nuestras-oficinas" style="padding-bottom: 3em;">
+                    <div class="col-content-nuestras-oficinas" id="col-content-nuestras-oficinas-nums">
                         <div style="padding-bottom: 2em;">
                             <div class="parr-white">
                                 Atención en EEUU:
@@ -122,16 +126,13 @@
                     </div>
                 </div>
                 <div class="col col-12 col-md-4 col-nuestras-oficinas order-md-1 center-all">
-                    <h1 class="h1-white">&nbsp&nbsp&nbspNuestras oficinas</h1>
+                    <h1 class="h1-white">Nuestras oficinas</h1>
                 </div>
             </div>
             <div class="row row-map" style="width: 100%;">
-                <div class="col col-12 col-md-6">
+                <div class="col col-america col-12 col-md-6">
                     <div class="container-fluid map-container d-flex flex-column aligns-items-center justify-content-evenly">
-                        <!-- <div class="section-title-medium" style="padding-left: inherit;">
-                            <h2 class="h2-big-black">Soluciones</h2>
-                            <h2 class="h2-small-black">Blockchain</h2>
-                        </div> -->
+                        
                         <div class="div-america">
                             <img class="mapa-contacto" id="mapa-america" src="Images/Contacto/America.svg" alt="cobertura nacional" title="cobertura nacional">
                         </div>
@@ -147,11 +148,6 @@
                 </div>
             </div>
         </section>
-
-        
-
-
-        
 
         <!--Sección de footer-->
         <section class=" footer-white footer-section">
@@ -217,12 +213,6 @@
 
             </div>
         </section>
-
-        
-        <!--Script de JS local-->
-        <script language="JavaScript" type="text/javascript" src="script.js" defer></script>
-        <!--Pixel para activar eventos de scroll-->
-        <div id="top-of-site-pixel-anchor"></div>
     </body>
 
     
