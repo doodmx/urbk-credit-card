@@ -118,7 +118,7 @@
 }
 .blackcards-im{
   min-height: 85vh;
-  background-image: url('Images/SobreNosotros/Dos\ Tarjetas.png');
+  background-image: url('Images/CreditCard/Dos\ tarjetas@2x.png');
   background-color: #000;
   /* background-position: center; */
   background-position: center;
@@ -169,6 +169,19 @@
 }
 
 .btn-creditcard-white{
+	width: 70vw;
+  max-width: 283px;
+	height:53px;
+	background-color: #fff!important;
+	color:#000;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	/*box-shadow: 2px 2px 3px #999;*/
+  z-index:100;
+  top: 87%;
+  left: 48%;
+  transform: translate(17vw, 13%);
   border-radius: 36px!important;
   font-family: Sequel_Sans_Light_Head;
   border: none !important;
@@ -176,6 +189,16 @@
   align-items: center;
   justify-content: center;
   box-shadow: 4px 5px 6px #00000029;
+}
+
+.btn-creditcard-blue{
+  border: 1px solid blue!important;
+  border-radius: 25px!important;
+  color: #fff!important;
+  font-family: Sequel_Sans_Light_Head;
+  width: 178px;
+  justify-content: center;
+
 }
 
 .btn-enviar-card-form{
@@ -214,6 +237,11 @@
 
 }
 
+.btn-solicitar-arriba{
+  position: absolute;
+  top: 26%!important;
+  left: 55vw!important;
+}
 .btn-urbankcard{
   border-radius: 19px !important;
   width: 200px;
@@ -706,6 +734,8 @@
 }
 
 
+
+
 html,body
 {
     width: 100%;
@@ -1055,7 +1085,9 @@ html { scroll-behavior: smooth; }
 /*////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-
+.navbar-light .logo-urbk-navbar{
+  content:url("Images/CreditCard/LogoUrbkNegro.svg");
+}
 
 
 
@@ -1102,6 +1134,14 @@ html { scroll-behavior: smooth; }
 .navbar-collapse-centered{
   justify-content: center;
   padding: 0;
+}
+.navbar.scrolled {
+  /* background-color: #fff !important; */
+  transition: background-color 200ms linear;
+  color: #000!important;
+  background-color: rgba(255, 255, 255, 0.65)!important;
+  filter: (opacity=50);
+  backdrop-filter: blur(8px);
 }
 
 .navbar-thick{
@@ -1852,13 +1892,21 @@ body h1{
     #float-solicitar-home{
       display: none;
     }
-    #float-solicitar-contacto{
+    #float-solicitar-contacto-arriba{
       display: flex;
-      top: 7%;
+      top: 46%;
       left: 83%;
       width: 190px;
       height: 35px;
     }
+    #float-solicitar-contacto-abajo{
+      display: none!important;
+    }
+    #float-solicitar-sobre-abajo{
+      display: none!important;
+    }
+    
+    
    
 
     .h2-slim-card{
@@ -1888,9 +1936,7 @@ body h1{
       font-family: Telegraf_Light;
       font-size: 1.5rem;
     }
-    .row-quienes-somos{
-      min-height: 49em;
-    }
+    
     .row-map{
       padding-bottom: 2em;
     }
@@ -2286,11 +2332,15 @@ body h1{
     .float-solicitar{
       display: flex!important;
     }
-    .float-solicitar-azul{
-      background-color: red!important;
-    }
+    
     #float-solicitar-contacto, #float-solicitar-home{
       height: 40px;
+    }
+    #float-solicitar-sobre-arriba{
+      display: none!important;
+    }
+    #float-solicitar-contacto-arriba{
+      display: none!important;
     }
     .h2-big-white{
       font-size: 4vh;

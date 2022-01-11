@@ -58,28 +58,6 @@
   };
 
 
-  ///////////////////////////////////////////////////////////////////////////////
-  // if (
-  //   "IntersectionObserver" in window &&
-  //   "IntersectionObserverEntry" in window &&
-  //   "intersectionRatio" in window.IntersectionObserverEntry.prototype
-  // ) {
-  //     var element = document.getElementById("float-solicitar-contacto");
-  //     let observer = new IntersectionObserver(entries => {
-        
-        
-        
-  //       if (entries[0].boundingClientRect.y < 0) {
-  //         console.log("Probando")
-  //         element.classList.add("float-solicitar-azul");
-  //         // document.body.classList.add("header-not-at-top");
-  //       } else {
-  //         element.classList.remove("float-solicitar-azul");
-  //         // document.body.classList.remove("header-not-at-top");
-  //       }
-  //     });
-  //     observer.observe(document.querySelector("#top-of-site-pixel-anchor"));
-  //     }
 
 
 //-------------------------------------------Formulario------------------------------------------------
@@ -112,6 +90,20 @@ $( "#cardForm" ).submit(function( event ) {
 });
 
 console.log("prueba2")
+
+/*Navbar que cambia de color*/
+
+$(function () {
+  $(document).scroll(function () {
+    // var $nav = document.getElementById("navbar-transparent")
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    $nav.toggleClass('navbar-light', $(this).scrollTop() > $nav.height());
+    $nav.toggleClass('navbar-dark', $(this).scrollTop() < $nav.height());
+    // $nav.classList.add('navbar-light',$(this).scrollTop() > $nav.height());
+    // $nav.classList.remove('navbar-dark',$(this).scrollTop() > $nav.height());
+  });
+});
 
 
 
