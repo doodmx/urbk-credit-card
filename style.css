@@ -214,6 +214,10 @@
   font-weight: inherit !important;
   color: inherit !important;
 }
+#btn-regresar-thankyou{
+  display: flex;
+  transform: translate(0,0);
+}
 .btn-tesoreria{
   border-radius: 14px !important;
   width: 191px;
