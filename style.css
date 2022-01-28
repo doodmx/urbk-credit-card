@@ -342,6 +342,11 @@
   justify-content: center;
   align-items: center;
 }
+.center-horizontally{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .city-im{
   height: 100vh;
@@ -383,6 +388,12 @@
   display: flex;
   align-items: center;
 }
+.col-content-privacy{
+  max-width: 70%;
+}
+/* .col-content-popup{
+
+} */
 .col-creditcard-right .col-content-creditcard{
   margin-right: 4%;
 }
@@ -560,7 +571,7 @@
   z-index:100;
   top: 87%;
   left: 48%;
-  transform: translate(-47%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 
@@ -701,6 +712,12 @@
   font-size: 3vh;
   font-family: Sequel_Sans_Light_Head;
 }
+.h3-black-square{
+  color: #000;
+  font-family: 'Monora';
+  font-size: 3.5vh;
+}
+
 .h3-grey{
   color: #676767;
   font-size: 3vh;
@@ -762,6 +779,11 @@ html { scroll-behavior: smooth; }
   /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
   -webkit-animation: moving-up 1s; 
   position:relative;
+}
+.icon-privacy{
+  min-height: 4.5em;
+  padding-top: 2em;
+  padding-bottom: 1em;
 }
 
 .imagen-centrada{
@@ -1098,10 +1120,6 @@ html { scroll-behavior: smooth; }
   content:url("Images/CreditCard/LogoUrbkNegro.svg");
 }
 
-.navbar-nav .nav-item{
-  width: 7em;
-}
-
 
 
 .logos-sofom{
@@ -1126,7 +1144,7 @@ html { scroll-behavior: smooth; }
 }
 
 .modal-content{
-  background-color: rgba(66, 66, 66, 0.9)!important;
+  background-color: rgba(255, 255, 255, 0.95)!important;
   /* background: rgba(73, 74, 74, 0.7); */
 }
 
@@ -1215,9 +1233,10 @@ html { scroll-behavior: smooth; }
 }
 .parr-black-small{
   font-family: Sequel_Sans_Light_Head;
-  color: #494A4A;
-  font-size: 1em;
+  color: #000;
+  font-size: 2vh;
 }
+
 .parr-creditcard-calltoaction{
   color: #000;
   font-size: 2vh;
@@ -1310,6 +1329,18 @@ html { scroll-behavior: smooth; }
   background-size: cover;
 }
 
+#privacy-modal-body{
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#privacyModal-bottom-parr{
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 2em;
+  max-width: 53%;
+}
+
 .quienes-somos-content-entry{
   height: 20vh;
 }
@@ -1348,6 +1379,7 @@ html { scroll-behavior: smooth; }
   width: 100%;
   height: 100%;
   margin: 0!important;
+  min-height: 75vh;
 }
 .row-nuestras-oficinas{
   padding-top: 5em;
@@ -1885,7 +1917,12 @@ body h1{
     #col-quienes-somos-right{
       padding-right: 7em;
     }
-    
+    .col-content-nuestrasoficinas{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      min-height: 100%;
+    }
     .core-grid{
       top: -9vh;
     }
@@ -1934,7 +1971,7 @@ body h1{
     } */
     #mapa-america{
       width: 100%;
-      height: 75vh;
+      height: 55vh;
     }
     #mapa-asia{
       height: 67vh;
@@ -1942,7 +1979,13 @@ body h1{
     .map-container{
       justify-content: start;
     }
-    
+    .modal-dialog{
+      max-width: 55vw!important;
+      margin-top: 15vh!important;
+    }
+    .modal-row{
+      max-width: 91%;
+    }
     .parr-card-slim{
       padding-right: 5vh;
       padding-top: 5vh;
@@ -2185,6 +2228,9 @@ body h1{
   .footer-col{
     padding-bottom: 2em;
   }
+  .modal-dialog{
+    max-width: 65vw!important;
+  }
   .parr-creditcard-calltoaction{
     width: 78%;
   }
@@ -2255,6 +2301,8 @@ body h1{
     .col-asia{
       padding-top: 0;
       padding-right: 0!important;
+      padding-left: 0!important;
+      min-height: 80vh;
     }
     .col-asia .map-container{
       padding-right: 0;
@@ -2269,6 +2317,13 @@ body h1{
     .col-content-nuestras-oficinas{
       text-align: center;
       padding-left: 0;
+    }
+    .col-content-nuestrasoficinas{
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: center;
     }
     
     #col-content-nuestras-oficinas-nums, #col-content-nuestras-oficinas-nums2{
@@ -2403,10 +2458,13 @@ body h1{
       /* transform: translate(76px,-10px); */
     }
     .mapa-contacto{
-      height: 62vh;
+      height: 23vh;
     }
     .map-container{
       justify-content: center;
+    }
+    .modal-dialog{
+      max-width: 100%!important;
     }
     .navbar-collapse{
       padding-right: 0;
@@ -2433,6 +2491,12 @@ body h1{
     }
     .pearl-card{
       top: -51vh;
+    }
+    #privacyModal-bottom-parr{
+      max-width: 70%;
+    }
+    #privacyModal-btn{
+      display: flex!important;
     }
     .quienes-somos-content-entry{
       height: auto;

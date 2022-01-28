@@ -72,12 +72,12 @@ $( "#cardForm" ).submit(function( event ) {
     axios.post('https://dood-azell-giveaway-api.herokuapp.com/credit-card',{name:nameForm, lastName:lastNameForm, email:emailForm, phoneNumber:phoneForm},{Headers:{"Content-Type": "text/json"}})
       .then((res)=>{
           // alert('All good')
-          // window.location.replace("https://www.bing.com/");
+          window.location.replace("https://www.urbk.mx/thankyou.html");
           // document.location.href=document.location.href.splitOnLast('/')[0]+"/thankyou.html";
           console.log(res)
-          document.querySelector('.creditcard-thankyou-section').classList.add('visible');
-          document.querySelector('.creditcard-thankyou-section').classList.remove('invisible');
-          document.querySelector('.creditcard-form-section').classList.add('invisible');
+          // document.querySelector('.creditcard-thankyou-section').classList.add('visible');
+          // document.querySelector('.creditcard-thankyou-section').classList.remove('invisible');
+          // document.querySelector('.creditcard-form-section').classList.add('invisible');
       }).catch((error)=>{
           alert(error.response.data.message)
           console.table(error)
@@ -99,6 +99,17 @@ $(function () {
     $nav.toggleClass('navbar-dark', $(this).scrollTop() < $nav.height());
     // $nav.classList.add('navbar-light',$(this).scrollTop() > $nav.height());
     // $nav.classList.remove('navbar-dark',$(this).scrollTop() > $nav.height());
+  });
+});
+
+
+/*-----------------------Modal-----------------------*/
+
+$(document).ready(function(){
+  $("#privacyModal").modal({
+    backdrop: 'static',
+    kyboard: 'false',
+    // 'show'
   });
 });
 
