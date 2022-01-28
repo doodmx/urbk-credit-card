@@ -53,9 +53,7 @@
     document.getElementById("slider").src = hmmmmm;
   }
 
-  window.onscroll = function (e) {
-    console.log(window.scrollY);
-  };
+
 
 
 
@@ -89,7 +87,6 @@ $( "#cardForm" ).submit(function( event ) {
   event.preventDefault();
 });
 
-console.log("prueba2")
 
 /*Navbar que cambia de color*/
 

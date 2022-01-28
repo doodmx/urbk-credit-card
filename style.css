@@ -214,6 +214,10 @@
   font-weight: inherit !important;
   color: inherit !important;
 }
+#btn-regresar-thankyou{
+  display: flex;
+  transform: translate(0,0);
+}
 .btn-tesoreria{
   border-radius: 14px !important;
   width: 191px;
@@ -375,6 +379,10 @@
   text-align: start;
   padding-left: 5em;
 }
+#col-content-nuestras-oficinas-nums{
+  display: flex;
+  align-items: center;
+}
 .col-creditcard-right .col-content-creditcard{
   margin-right: 4%;
 }
@@ -394,8 +402,9 @@
   align-items: end;
 }
 .col-quienes-somos-content{
-  width: 55%;
+  width: 62%;
   height: 100%;
+  text-align: center;
 }
 
 .col-slim-card{
@@ -2069,9 +2078,9 @@ body h1{
 
 @media only screen and (device-width: 1024px)and (device-height: 1366px) {
   /*Para iPad Pro*/
-  .col-auxiliar{
+  /* .col-auxiliar{
     display: none;
-  }
+  } */
 
   /*Desktop css*/
   .bgd-light a {
@@ -2207,7 +2216,7 @@ body h1{
     }
     .blackcards-im{
       background-position: 69% 0%;
-      background-image: url('Images/SobreNosotros/Dos\ Tarjetas\ Mobile.png');
+      background-image: url('Images/SobreNosotros/Dos\ Tarjetas\ Mobile@2x.png');
     }
     .black-card-sofom{
       top: -49vh;
@@ -2247,9 +2256,9 @@ body h1{
       padding-right: 0;
       padding-top: 2em;
     }
-    .col-auxiliar{
+    /* .col-auxiliar{
       display: none;
-    }
+    } */
     .col-content-creditcard{
       width: 100%;
     }
@@ -2257,7 +2266,8 @@ body h1{
       text-align: center;
       padding-left: 0;
     }
-    #col-content-nuestras-oficinas-nums{
+    
+    #col-content-nuestras-oficinas-nums, #col-content-nuestras-oficinas-nums2{
       padding-bottom: 3em;
     }
     
