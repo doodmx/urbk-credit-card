@@ -571,7 +571,7 @@
   z-index:100;
   top: 87%;
   left: 48%;
-  transform: translate(-50%, -50%);
+  transform: translate(-47%, -50%);
 }
 
 
@@ -2468,6 +2468,10 @@ body h1{
     }
     .navbar-collapse{
       padding-right: 0;
+    }
+
+    .navbar-nav .nav-item{
+      width: 7em;
     }
     .navbar-permanent-content{
       display: flex!important;
