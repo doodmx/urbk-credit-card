@@ -118,7 +118,7 @@
 }
 .blackcards-im{
   min-height: 85vh;
-  background-image: url('Images/CreditCard/Dos\ tarjetas@2x.png');
+  background-image: url('Images/SobreNosotros/43.png');
   background-color: #000;
   /* background-position: center; */
   background-position: center;
@@ -555,6 +555,12 @@
   font-size:30px;
 	/*box-shadow: 2px 2px 3px #999;*/
   z-index:100;
+}
+.float:hover{
+  background-color: #fff
+}
+.float:hover .my-float{
+  color: #000;
 }
 /*Icono flotante de solicitar tarjeta*/
 .float-solicitar{
@@ -1150,6 +1156,9 @@ html { scroll-behavior: smooth; }
 
 .my-float{
 	margin-top:16px;
+}
+.my-float:hover{
+  color: #000;
 }
 
 .nav-link{
