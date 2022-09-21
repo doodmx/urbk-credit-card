@@ -3,6 +3,13 @@
     <clipPath id="clip-path">
       <rect id="Rectangle_27" data-name="Rectangle 27" width="971.106" height="663.553" fill="none"/>
     </clipPath>
+    <style type="text/css">
+      @font-face {
+      font-family: "Sequel";
+      src: url('../../Fonts/Sequel_Sans/Sequel-Sans-OTF/Sequel-Sans-Medium-Body.otf'),
+      format("truetype");
+      }
+    </style>
   </defs>
   <g id="Group_4558" data-name="Group 4558" transform="translate(0 0.002)">
     <g id="Group_4555" data-name="Group 4555" transform="translate(0 -0.002)">
@@ -1107,13 +1114,13 @@
         <path id="Path_1203" data-name="Path 1203" d="M935.342,823.956l10.522-10.522h215.716" transform="translate(-425.565 -370.098)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
     </g>
-    <text id="Querétaro" transform="translate(635.593 435.705)" fill="#3178ec" font-size="20" font-family="SequelSans-LightHead, Sequel Sans" font-weight="300"><tspan x="0" y="0">Que</tspan><tspan y="0" letter-spacing="-0.013em">r</tspan><tspan y="0" letter-spacing="-0.018em">é</tspan><tspan y="0">ta</tspan><tspan y="0" letter-spacing="-0.013em">r</tspan><tspan y="0">o</tspan></text>
+    <text id="Querétaro" transform="translate(635.593 435.705)" fill="#3178ec" font-size="20" font-family="Sequel, Sequel Sans" font-weight="300"><tspan x="0" y="0">Que</tspan><tspan y="0" letter-spacing="-0.013em">r</tspan><tspan y="0" letter-spacing="-0.018em">é</tspan><tspan y="0">ta</tspan><tspan y="0" letter-spacing="-0.013em">r</tspan><tspan y="0">o</tspan></text>
     <g id="Group_4557" data-name="Group 4557" transform="translate(0 -0.002)">
       <g id="Group_4556" data-name="Group 4556" clip-path="url(#clip-path)">
         <path id="Path_1204" data-name="Path 1204" d="M740,833.013a9.585,9.585,0,1,1-9.585,9.585A9.6,9.6,0,0,1,740,833.013m0-2.18A11.765,11.765,0,1,0,751.764,842.6,11.764,11.764,0,0,0,740,830.833" transform="translate(-331.335 -378.014)" fill="#fff"/>
         <path id="Path_1205" data-name="Path 1205" d="M539.217,872.1,528.7,882.621h-234.6" transform="translate(-133.807 -396.79)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
       </g>
     </g>
-    <text id="Guadalajara" transform="translate(161.23 478.395)" fill="#3178ec" font-size="20" font-family="SequelSans-LightHead, Sequel Sans" font-weight="300"><tspan x="0" y="0">Guadalaja</tspan><tspan y="0" letter-spacing="-0.007em">r</tspan><tspan y="0">a</tspan></text>
+    <text id="Guadalajara" transform="translate(161.23 478.395)" fill="#3178ec" font-size="20" font-family="Sequel, Sequel Sans" font-weight="300"><tspan x="0" y="0">Guadalaja</tspan><tspan y="0" letter-spacing="-0.007em">r</tspan><tspan y="0">a</tspan></text>
   </g>
 </svg>
