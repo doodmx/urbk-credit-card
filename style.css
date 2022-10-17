@@ -1989,8 +1989,10 @@ body h1{
       padding-right: 5vw;
     } */
     #mapa-america{
-      width: 100%;
-      height: 55vh;
+      width: 80%;
+      margin-right: 4em;
+      /* height: 55vh; */
+      /* height: 100%; */
     }
     #mapa-asia{
       height: 67vh;
