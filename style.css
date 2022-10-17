@@ -1,52 +1,68 @@
 /*Checar estos colores */
 
 /*Checar estos colores */
-  
-  /*Default version*/
-  @font-face{
-    font-family: 'Monora';
-    src: url(https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FMonorama%20Medium.otf?v=1629910210228);
-    format:('opentype');
+
+/*Default version*/
+@font-face {
+  font-family: 'Monora';
+  src: url(https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FMonorama%20Medium.otf?v=1629910210228);
+  format: ('opentype');
+}
+
+@media screen and (orientation:landscape) {
+  .homeSection2 {
+    background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_horizontal2.jpg?v=1630424539538");
   }
-  
-  @media screen and (orientation:landscape) {
-    .homeSection2 {
-      background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_horizontal2.jpg?v=1630424539538");
-    }
+}
+
+@media screen and (orientation:portrait) {
+  .homeSection2 {
+    background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_vertical.jpg?v=1630357281430");
   }
-  
-  @media screen and (orientation:portrait) {
-    .homeSection2 {
-      background-image: url("https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FFondo-blanco_vertical.jpg?v=1630357281430");
-    }
-  }
+}
 
 
 /*Animaciones*/
 @keyframes moving-up {
-  from {top: 100px; color: rgba(0, 0, 0, 0);}
-  to {top: 0px; color: rgba(0, 0, 0, 1);}
+  from {
+    top: 100px;
+    color: rgba(0, 0, 0, 0);
+  }
+
+  to {
+    top: 0px;
+    color: rgba(0, 0, 0, 1);
+  }
 }
+
 @-webkit-keyframes moving-up {
-  from {top: 100px; color: rgba(0, 0, 0, 0);}
-  to {top: 0px; color: rgba(0, 0, 0, 1);}
+  from {
+    top: 100px;
+    color: rgba(0, 0, 0, 0);
+  }
+
+  to {
+    top: 0px;
+    color: rgba(0, 0, 0, 1);
+  }
 }
 
 
-.around-all{
+.around-all {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
-.banner-subheader{
-    color:#f1f0ee;
-    font-family: Berthold_Akzidenz_Grotesk_E;
-    font-size: 3.5vh;
-    /*font-family: Telegraph_Light;*/
+
+.banner-subheader {
+  color: #f1f0ee;
+  font-family: Berthold_Akzidenz_Grotesk_E;
+  font-size: 3.5vh;
+  /*font-family: Telegraph_Light;*/
 }
 
- /* .bateria_im{
+/* .bateria_im{
   background-size: 600px;
   width: auto;
   height: 100%;
@@ -54,15 +70,15 @@
   background-image: url('Images/Funciones/Bateria.jpg');
 }  */
 
-.ball-down{
+.ball-down {
   padding-top: 3vh;
 }
 
-.ball-up{
+.ball-up {
   padding-bottom: 2vh;
 }
 
-.bateria-im{
+.bateria-im {
   height: 75vh;
   background-image: url('Images/Funciones/Bateria.jpg');
   background-position: center;
@@ -70,30 +86,30 @@
   background-position-y: +5vh;
 }
 
-.bateria-img{
+.bateria-img {
   height: auto;
   width: 50vh;
 }
 
-.between-all{
+.between-all {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-.reisize{
+.reisize {
   width: 50%;
 }
 
-  
+
 .bgd-light {
-      background: #f1f0ee !important;
-      /*color: #ebf3fc;*/
+  background: #f1f0ee !important;
+  /*color: #ebf3fc;*/
 }
-    
+
 .bgd-light a {
-      color: black !important;
+  color: black !important;
 }
 
 .bgd-light button {
@@ -101,7 +117,7 @@
   border-width: 0.1vh;
   color: transparent !important;
 }
-  
+
 .bgd-light span {
   border-color: black !important;
   stroke: black !important;
@@ -112,30 +128,32 @@
   font-weight: bolder;
 }
 
-.black-creditcard-mobile{
+.black-creditcard-mobile {
   height: 84vh;
   background-color: #000;
 }
-.blackcards-im{
+
+.blackcards-im {
   min-height: 85vh;
   background-image: url('Images/SobreNosotros/Dos\ Tarjetas@2x.png');
   background-color: #000;
   /* background-position: center; */
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   /* box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6); */
   /* background: transparent url('Images/CreditCard/Tarjeta\ en\ mesa.png') 0% 0% no-repeat padding-box; */
   /* opacity: 0.75; */
 }
 
-.blue-tesoreria{
+.blue-tesoreria {
   background-color: #02303C;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.blue-tesoreria-div{
+
+.blue-tesoreria-div {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -146,15 +164,15 @@
 
 }
 
-.btn-azell{
+.btn-azell {
   border-radius: 19px !important;
   width: 200px;
   font-family: Sequel_Sans_Medium_Head;
   font-size: 3vh;
   height: 7vh;
-  background-color: transparent!important;
-  border: 2px solid #38D430!important;
-  color: #FFFFFF!important;
+  background-color: transparent !important;
+  border: 2px solid #38D430 !important;
+  color: #FFFFFF !important;
   /* background: linear-gradient(90deg, rgba(54,54,54,1) 0%, rgba(7,150,0,1) 0%, rgba(69,67,67,1) 100%); */
   /* border: none !important; */
   display: flex;
@@ -163,49 +181,51 @@
   padding-top: 2em;
 }
 
-.btn-azell:hover, .btn-azell:focus{
+.btn-azell:hover,
+.btn-azell:focus {
   box-shadow: 0 0.5em 0.5em -0.2em #38D430;
   transform: translateY(-0.25em);
 }
 
-.btn-creditcard-white{
-	width: 70vw;
+.btn-creditcard-white {
+  width: 70vw;
   max-width: 283px;
-	height:53px;
-	background-color: #fff!important;
-	color:#000;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	/*box-shadow: 2px 2px 3px #999;*/
-  z-index:100;
+  height: 53px;
+  background-color: #fff !important;
+  color: #000;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /*box-shadow: 2px 2px 3px #999;*/
+  z-index: 100;
   top: 87%;
   left: 48%;
   transform: translate(17vw, 13%);
-  border-radius: 36px!important;
+  border-radius: 36px !important;
   font-family: Sequel_Sans_Light_Head;
   border: none !important;
-  font-size: 14px!important;
+  font-size: 14px !important;
   align-items: center;
   justify-content: center;
   box-shadow: 4px 5px 6px #00000029;
 }
 
-.btn-creditcard-blue{
-  border: 1px solid blue!important;
-  border-radius: 25px!important;
-  color: #fff!important;
+.btn-creditcard-blue {
+  border: 1px solid blue !important;
+  border-radius: 25px !important;
+  color: #fff !important;
   font-family: Sequel_Sans_Light_Head;
   width: 178px;
   justify-content: center;
 
 }
 
-.btn-enviar-card-form{
+.btn-enviar-card-form {
   margin-top: 1em;
   margin-bottom: 1em;
 }
-.btn-nosotros{
+
+.btn-nosotros {
   height: 30vh;
   padding: 0 !important;
   margin: 0;
@@ -214,21 +234,24 @@
   font-weight: inherit !important;
   color: inherit !important;
 }
-#btn-regresar-thankyou{
+
+#btn-regresar-thankyou {
   display: flex;
-  transform: translate(0,0);
+  transform: translate(0, 0);
 }
-.btn-tesoreria{
+
+.btn-tesoreria {
   border-radius: 14px !important;
   width: 191px;
   height: 48px;
   font-family: Sequel_Sans_Medium_Head;
-  font-size: 1.4rem!important;
+  font-size: 1.4rem !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.btn-solicitar-card{
+
+.btn-solicitar-card {
   color: #ffff;
   text-align: center;
   align-self: center;
@@ -241,31 +264,36 @@
 
 }
 
-.btn-solicitar-arriba{
+.btn-solicitar-arriba {
   position: absolute;
-  top: 38%!important;
-  left: 55vw!important;
+  /* top: 38%!important;
+  left: 55vw!important; */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.btn-urbankcard{
+
+.btn-urbankcard {
   border-radius: 19px !important;
   width: 200px;
   font-family: Sequel_Sans_Medium_Head;
   font-size: 3vh;
   height: 7vh;
-  background: rgb(2,0,36)!important;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(62,62,62,1) 44%, rgba(119,119,119,1) 97%)!important;
+  background: rgb(2, 0, 36) !important;
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(62, 62, 62, 1) 44%, rgba(119, 119, 119, 1) 97%) !important;
   border: none !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.btn-urbankcard-black{
+
+.btn-urbankcard-black {
   border-radius: 19px !important;
   width: 200px;
   font-family: Sequel_Sans_Light_Head;
-  font-size: 2vh!important;
+  font-size: 2vh !important;
   height: 5.5vh;
-  background: rgb(2,0,36)!important;
+  background: rgb(2, 0, 36) !important;
   border: none !important;
   display: flex;
   align-items: center;
@@ -274,33 +302,33 @@
 }
 
 
-.btn-beneficios-tesoreria{
+.btn-beneficios-tesoreria {
   border-radius: 41px !important;
   width: 250px;
   font-family: Sequel_Sans_Light_Head;
-  font-size: 1.5em!important;
-  color: #ffff!important;
+  font-size: 1.5em !important;
+  color: #ffff !important;
   height: 8vh;
   background-color: rgba(181, 181, 181, 0.35);
-  filter:(opacity=50);  
+  filter: (opacity=50);
   backdrop-filter: blur(8px);
   border: none !important;
   background: none;
 }
 
-.cardcartera-im{
+.cardcartera-im {
   min-height: 100vh;
   background-image: url('Images/Form/Cartera.png');
   background-color: #000;
   /* background-position: center; */
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   /* box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6); */
   /* background: transparent url('Images/CreditCard/Tarjeta\ en\ mesa.png') 0% 0% no-repeat padding-box; */
   /* opacity: 0.75; */
 }
 
-.card-slim{
+.card-slim {
   border-radius: 0.5rem !important;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
@@ -308,47 +336,50 @@
   justify-content: center;
 }
 
-.card-header{
+.card-header {
   padding: 0;
   margin: 0;
   height: 30vh;
 }
 
-.card-body{
+.card-body {
   font-family: Telegraf_Light;
   font-size: 3vh;
 }
-.cardtable-im{
+
+.cardtable-im {
   min-height: 100vh;
   background-image: url('Images/CreditCard/Tarjeta\ en\ mesa.png');
   background-color: #000;
   /* background-position: center; */
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   /* box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6); */
   /* background: transparent url('Images/CreditCard/Tarjeta\ en\ mesa.png') 0% 0% no-repeat padding-box; */
   /* opacity: 0.75; */
 }
-.cardtable-im-content{
+
+.cardtable-im-content {
   min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.center-all{
+.center-all {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.center-horizontally{
+
+.center-horizontally {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.city-im{
+.city-im {
   height: 100vh;
   /*background-image: url('Images/FondoGrid.svg');*/
   background-image: url('Images/Index/Fondo-home.jpg');
@@ -359,7 +390,8 @@
   align-items: end;
   alt: "Ciudad";
 }
-.citydots-im{
+
+.citydots-im {
   height: 100vh;
   /*background-image: url('Images/FondoGrid.svg');*/
   background-image: url('Images/Exchange/Fondo_Ciudad.jpeg');
@@ -369,87 +401,98 @@
   display: flex;
   justify-content: center;
 }
-.compu-im{
+
+.compu-im {
   background-image: url('Images/Card/En\ compu.png');
 }
 
-.col-content-creditcard{
+.col-content-creditcard {
   width: 76%;
 }
-.col-content-creditcard-calltoaction{
+
+.col-content-creditcard-calltoaction {
   width: 71%;
   height: 100%;
 }
-.col-content-nuestras-oficinas{
+
+.col-content-nuestras-oficinas {
   text-align: start;
   padding-left: 5em;
 }
-#col-content-nuestras-oficinas-nums{
+
+#col-content-nuestras-oficinas-nums {
   display: flex;
   align-items: center;
 }
-.col-content-privacy{
+
+.col-content-privacy {
   max-width: 70%;
 }
+
 /* .col-content-popup{
 
 } */
-.col-creditcard-right .col-content-creditcard{
+.col-creditcard-right .col-content-creditcard {
   margin-right: 4%;
 }
-.col-creditcard-left .col-content-creditcard{
+
+.col-creditcard-left .col-content-creditcard {
   margin-left: 4%;
 }
-.col-creditcard-left{
+
+.col-creditcard-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
 }
-.col-creditcard-right{
+
+.col-creditcard-right {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: end;
 }
-.col-quienes-somos-content{
+
+.col-quienes-somos-content {
   width: 62%;
   height: 100%;
   text-align: center;
 }
 
-.col-slim-card{
+.col-slim-card {
   padding-left: 2vh;
   margin-left: 2vh;
 }
 
-.col-tesoreria-beneficios{
+.col-tesoreria-beneficios {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
 
-.constelaciones-im{
+.constelaciones-im {
   height: 75vh;
   /*background-image: url('Images/FondoGrid.svg');*/
   background-image: url('Images/Nosotros/FondoGrid.jpg');
   background-size: cover;
 }
 
-.containter-contacto{
+.containter-contacto {
   height: 60vh;
 }
 
-.core-col{
+.core-col {
   justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: center;
-  padding-bottom: 7vh; 
+  padding-bottom: 7vh;
 }
-.core-grid{
+
+.core-grid {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -457,17 +500,19 @@
   top: -9vh;
 }
 
-.core-parr{
+.core-parr {
   max-width: 19vw !important;
 }
-.core-row{
+
+.core-row {
   padding-bottom: 4vh;
 }
-.core-row h2{
+
+.core-row h2 {
   max-width: 22vw;
 }
 
-.creditcard-calltoaction{
+.creditcard-calltoaction {
   height: 100%;
   background-image: url('Images/CreditCard/Mostrar\ tarjeta@2x.png');
   background-position: center;
@@ -475,176 +520,194 @@
   display: flex;
   justify-content: center;
 }
-.creditcard-form-col{
+
+.creditcard-form-col {
   background: transparent linear-gradient(90deg, #000000 0%, #030303 25%, #0E0E0E 47%, #202121 69%, #3A3A3A 90%, #494A4A 100%) 0% 0% no-repeat padding-box;
 }
 
-.creditcard-form-section{
+.creditcard-form-section {
   min-height: 100vh;
 }
-.creditcard-top-mobile-content{
+
+.creditcard-top-mobile-content {
   max-width: 60%;
   padding-left: 1em;
 }
-.creditcard-thankyou-section{
+
+.creditcard-thankyou-section {
   min-height: 100vh;
   background-color: rgb(99, 96, 96);
 }
-.desk-im{
+
+.desk-im {
   min-height: 85vh;
   background-image: url('Images/Contacto/Leyendo\ mails.png');
   background-color: #000;
   /* background-position: center; */
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   /* box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6); */
   /* background: transparent url('Images/CreditCard/Tarjeta\ en\ mesa.png') 0% 0% no-repeat padding-box; */
   /* opacity: 0.75; */
 }
 
-.div-america{
+.div-america {
   display: flex;
   justify-content: end;
-  
+
 }
-.div-asia{
+
+.div-asia {
   padding-top: 6vh;
-  
+
 }
-.div-text-contacto{
+
+.div-text-contacto {
   text-align: center;
   width: 75%;
 }
 
-.evenly-all{
+.evenly-all {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.black-section{
+
+.black-section {
   background-color: #000 !important;
 }
 
-.white-section{
+.white-section {
   background-color: #f1f0ee !important;
 }
 
-.grey-section{
+.grey-section {
   background-color: #c4beb6 !important;
 }
 
-.brown-section{
+.brown-section {
   background-color: #64513d !important;
 }
 
-.text-center{
+.text-center {
   text-align: center;
 }
+
 /*Icono flotante de whatsapp*/
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:20px;
-	right:20px;
-	background-color: #101820;
-	color:#f1f0ee;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	/*box-shadow: 2px 2px 3px #999;*/
-  z-index:100;
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #101820;
+  color: #f1f0ee;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /*box-shadow: 2px 2px 3px #999;*/
+  z-index: 100;
 }
-.float:hover{
+
+.float:hover {
   background-color: #fff
 }
-.float:hover .my-float{
+
+.float:hover .my-float {
   color: #000;
 }
+
 /*Icono flotante de solicitar tarjeta*/
-.float-solicitar{
-  position:fixed;
-	width: 70vw;
+.float-solicitar {
+  position: fixed;
+  width: 70vw;
   max-width: 283px;
-	height:53px;
-	background-color: #fff!important;
-	color:#000;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	/*box-shadow: 2px 2px 3px #999;*/
-  z-index:100;
+  height: 53px;
+  background-color: #fff !important;
+  color: #000;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  /*box-shadow: 2px 2px 3px #999;*/
+  z-index: 100;
   top: 87%;
   left: 48%;
   transform: translate(-47%, -50%);
 }
 
 
-.floatcard-im{
+.floatcard-im {
   background-image: url('Images/Card/Mano_Tarjeta.png');
 }
-.fallcard-im{
+
+.fallcard-im {
   background-image: url('Images/Card/Gravity\ Business\ Card\ Mockup.png');
 }
 
-.footer-col{
+.footer-col {
   width: 12.5vw;
 }
-.footer-row{
+
+.footer-row {
   padding-top: 1em;
 }
-.footer-section{
+
+.footer-section {
   display: flex;
   justify-content: center;
 }
-.footer-ul{
+
+.footer-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.footer-white{
+
+.footer-white {
   padding-bottom: 1em;
   /* min-height: 13em; */
   background-color: #FFFFFF;
 }
 
-.grafica-im{
+.grafica-im {
   width: 80%;
   max-width: 700px;
   height: auto;
 }
 
-.green-card{
+.green-card {
   background-color: teal;
 }
 
-.h1-vino{
+.h1-vino {
   color: #863a20;
   font-family: Berthold_Akzidenz_Grotesk_BE;
   font-size: 5vh;
 }
 
-.h1-black{
+.h1-black {
   color: black;
   font-family: Sequel_Sans_Light_Head;
 }
-.h1-grey{
+
+.h1-grey {
   color: #676767;
   font-family: Sequel_Sans_Light_Head;
 }
-.h1-white{
+
+.h1-white {
   color: #f1f0ee;
   font-family: Sequel_Sans_Light_Head;
 }
 
-.h1-titulo{
+.h1-titulo {
   padding-top: 6rem;
   color: #101820;
   font-family: Berthold_Akzidenz_Grotesk_BE;
 }
 
-.h1-titulo-bateria{
+.h1-titulo-bateria {
   padding-top: 19vh;
   padding-bottom: 20vh;
   color: #101820;
@@ -652,84 +715,92 @@
   font-size: 7vh;
 }
 
-.h2-black{
+.h2-black {
   color: #676767;
   font-family: Sequel_Sans_Light_Head;
   font-size: 3vh;
 }
-.h2-big-black{
+
+.h2-big-black {
   color: #676767;
   font-family: Sequel_Sans_Medium_Head;
   font-size: 5vh;
 }
-.h2-big-white{
+
+.h2-big-white {
   color: #ffff;
   font-family: Sequel_Sans_Medium_Head;
   font-size: 5vh;
 }
-.h2-small-black{
+
+.h2-small-black {
   color: #676767;
   font-family: Sequel_Sans_Light_Head;
   font-size: 4vh;
 }
-.h2-small-white{
+
+.h2-small-white {
   color: #ffff;
   font-family: Sequel_Sans_Light_Head;
   font-size: 4vh;
 }
 
-.h2-brown{
+.h2-brown {
   color: #64513d;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
 }
-.h2-piel{
+
+.h2-piel {
   color: #f3be9a;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
 }
 
-.h2-vino{
+.h2-vino {
   color: #863a20;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
 }
-.h2-dark-brown{
+
+.h2-dark-brown {
   color: #4b3d2a;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
 }
 
-.h2-goldish{
+.h2-goldish {
   color: #e0c5ac;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
 }
 
-.h2-white{
+.h2-white {
   color: #ffff;
   font-size: 3vh;
   font-family: Sequel_Sans_Light_Head;
 
 }
 
-.h3-black{
+.h3-black {
   color: black;
   font-size: 3vh;
   font-family: Sequel_Sans_Light_Head;
 }
-.h3-black-square{
+
+.h3-black-square {
   color: #000;
   font-family: 'Monora';
   font-size: 3.5vh;
 }
 
-.h3-grey{
+.h3-grey {
   color: #676767;
   font-size: 3vh;
   font-family: Sequel_Sans_Light_Head;
 }
-.h3-white{
+
+.h3-white {
   color: #ffff;
   font-size: 3vh;
   font-family: Sequel_Sans_Light_Head;
@@ -740,7 +811,7 @@
   font-size: 2.5vh !important;
 } */
 
-.h2-vino{
+.h2-vino {
   color: #863a20 !important;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
@@ -749,13 +820,13 @@
 
 
 
-.h2-orange{
+.h2-orange {
   color: #e69e6c;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
 }
 
-.h2-gold{
+.h2-gold {
   color: #c8a977;
   font-family: Berthold_Akzidenz_Grotesk_E;
   font-size: 3.5vh;
@@ -768,57 +839,63 @@
 
 
 
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow: visible;
-    /* overflow-x: hidden;  */
-    /* overflow-y: hidden; */
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: visible;
+  /* overflow-x: hidden;  */
+  /* overflow-y: hidden; */
 }
-html { scroll-behavior: smooth; }
 
-.icon-col-animation{
+html {
+  scroll-behavior: smooth;
+}
+
+.icon-col-animation {
   animation: moving-up 1s;
   /*animation: name duration timing-function delay iteration-count direction fill-mode;*/
-  -webkit-animation: moving-up 1s; 
-  position:relative;
+  -webkit-animation: moving-up 1s;
+  position: relative;
 }
-.icon-privacy{
+
+.icon-privacy {
   min-height: 4.5em;
   padding-top: 2em;
   padding-bottom: 1em;
 }
 
-.imagen-centrada{
+.imagen-centrada {
   height: 30vh;
-  align-self:flex-end;
+  align-self: flex-end;
   margin-top: 4vh;
-  position:absolute;
-  top:28vh;
-  left:41%
+  position: absolute;
+  top: 28vh;
+  left: 41%
 }
 
-.img-sofom{
-  width: 53vh; 
+.img-sofom {
+  width: 53vh;
   align-self: center;
 }
-.img-tarjeta{
-  width: 53vh; 
+
+.img-tarjeta {
+  width: 53vh;
   align-self: center;
 }
-.img-tarjeta-small{
+
+.img-tarjeta-small {
   width: 100%;
 }
 
-.img-app{
+.img-app {
   height: 65vh;
   width: auto;
 }
 
-.input_field{
+.input_field {
   border: 0;
   padding: 0;
   z-index: 1;
@@ -829,15 +906,15 @@ html { scroll-behavior: smooth; }
   line-height: 30px;
 }
 
-.invisible{
+.invisible {
   display: none;
 }
 
- a.link-black:hover{
+a.link-black:hover {
   color: #e69e6c !important;
 }
 
-.laptop-im{
+.laptop-im {
   background-image: url('Images/CoreBancario/TarjetaE.png');
   background-position: center;
   background-size: cover;
@@ -863,7 +940,8 @@ html { scroll-behavior: smooth; }
   position: relative;
 }
 
-.login-box .user-box input, .login-box .user-box select{
+.login-box .user-box input,
+.login-box .user-box select {
   width: 100%;
   padding: 10px 10px;
   font-size: 16px;
@@ -875,7 +953,8 @@ html { scroll-behavior: smooth; }
   outline: none;
   background-color: #fff;
 }
-.login-box .user-box select{
+
+.login-box .user-box select {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
@@ -886,7 +965,8 @@ html { scroll-behavior: smooth; }
   outline: none;
   background: transparent;
 }
-.login-box .user-box option{
+
+.login-box .user-box option {
   background-color: #3f3f3f;
   color: white;
   width: 80%;
@@ -894,7 +974,7 @@ html { scroll-behavior: smooth; }
 
 .login-box .user-box label {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
   padding: 14px 12px;
   font-size: 12px;
@@ -903,27 +983,27 @@ html { scroll-behavior: smooth; }
   transition: .5s;
 }
 
-.login-box .user-box input:focus ~ label,
-.login-box .user-box input:valid ~ label {
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
   top: -37px;
   left: 0;
   color: #3178EC;
   font-size: 12px;
 }
 
-.login-box .user-box input:focus:invalid ~ label {
+.login-box .user-box input:focus:invalid~label {
   top: -37px;
   left: 0;
   color: rgb(189, 22, 22);
   font-size: 12px;
 }
 
-.login-box .user-box input:invalid{
+.login-box .user-box input:invalid {
   color: rgb(189, 22, 22);
   align-self: flex-end;
 }
 
-.login-box .user-box input:placeholder-shown ~label{
+.login-box .user-box input:placeholder-shown~label {
   color: transparent;
 }
 
@@ -943,7 +1023,7 @@ html { scroll-behavior: smooth; }
   letter-spacing: 4px; */
 }
 
-.btn-enviar-card-form{
+.btn-enviar-card-form {
   position: relative;
   display: inline-block;
   /* padding: 10px 20px; */
@@ -961,11 +1041,11 @@ html { scroll-behavior: smooth; }
   border: none;
 }
 
-.btn-enviar-card-form:hover{
+.btn-enviar-card-form:hover {
   color: #ffff;
 }
 
-.btn-enviar-div{
+.btn-enviar-div {
   position: relative;
   display: inline-block;
   border-radius: 25px;
@@ -977,36 +1057,36 @@ html { scroll-behavior: smooth; }
   overflow: hidden;
   transition: 1s;
   letter-spacing: 4px;
-  border: 1px solid #3178EC ;
+  border: 1px solid #3178EC;
   width: 78%;
 }
 
-.btn-enviar-div:hover{
+.btn-enviar-div:hover {
   background: #3178EC;
   color: #fff;
   /* border-radius: 5px; */
   box-shadow: 0 0 5px #3178EC,
-              0 0 25px #3178EC,
-              0 0 50px #3178EC,
-              0 0 100px #3178EC;
+    0 0 25px #3178EC,
+    0 0 50px #3178EC,
+    0 0 100px #3178EC;
 
 }
 
-.btn-enviar-div span{
+.btn-enviar-div span {
   position: absolute;
   display: block;
 }
 
-.creditcard-form-check-label{
+.creditcard-form-check-label {
   color: #fff;
 }
 
-.login-box a span{
+.login-box a span {
   position: absolute;
   display: block;
 }
 
-.login-box a span:nth-child(1){
+.login-box a span:nth-child(1) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -1015,7 +1095,7 @@ html { scroll-behavior: smooth; }
   animation: btn-anim1 1s linear infinite;
 }
 
-.btn-enviar-div span:nth-child(2){
+.btn-enviar-div span:nth-child(2) {
   top: 0;
   left: -100%;
   width: 100%;
@@ -1028,7 +1108,9 @@ html { scroll-behavior: smooth; }
   0% {
     left: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     left: 100%;
   }
 }
@@ -1057,7 +1139,9 @@ html { scroll-behavior: smooth; }
   0% {
     top: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     top: 100%;
   }
 }
@@ -1086,7 +1170,9 @@ html { scroll-behavior: smooth; }
   0% {
     right: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     right: 100%;
   }
 }
@@ -1115,20 +1201,23 @@ html { scroll-behavior: smooth; }
   0% {
     bottom: -100%;
   }
-  50%,100% {
+
+  50%,
+  100% {
     bottom: 100%;
   }
 }
+
 /*////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-.navbar-light .logo-urbk-navbar{
-  content:url("Images/CreditCard/LogoUrbkNegro.svg");
+.navbar-light .logo-urbk-navbar {
+  content: url("Images/CreditCard/LogoUrbkNegro.svg");
 }
 
 
 
-.logos-sofom{
+.logos-sofom {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1137,81 +1226,89 @@ html { scroll-behavior: smooth; }
   justify-content: flex-start;
 }
 
-.logos-sofom-img{
+.logos-sofom-img {
   width: 5em
 }
 
-.main-col{
+.main-col {
   padding-left: 7vw;
 }
 
-.mapa-contacto{
+.mapa-contacto {
   width: 600px;
 }
 
-.modal-content{
-  background-color: rgba(255, 255, 255, 0.95)!important;
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.95) !important;
   /* background: rgba(73, 74, 74, 0.7); */
 }
 
-.my-float{
-	margin-top:16px;
+.my-float {
+  margin-top: 16px;
 }
-.my-float:hover{
+
+.my-float:hover {
   color: #000;
 }
 
-.nav-link{
+.nav-link {
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
-.nav-link-big{
+
+.nav-link-big {
   font-size: 1.4em;
 }
-.navbar-centered{
-  justify-content: end!important;
+
+.navbar-centered {
+  justify-content: end !important;
 }
-.navbar-collapse-centered{
+
+.navbar-collapse-centered {
   justify-content: center;
   padding: 0;
 }
+
 .navbar.scrolled {
   /* background-color: #fff !important; */
   transition: background-color 200ms linear;
-  color: #000!important;
-  background-color: rgba(255, 255, 255, 0.65)!important;
+  color: #000 !important;
+  background-color: rgba(255, 255, 255, 0.65) !important;
   filter: (opacity=50);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
 }
 
-.navbar-thick{
+.navbar-thick {
   height: 10vh;
 }
-#navbar-white{
+
+#navbar-white {
   background-color: #ffff;
 }
-#navbar-opaque{
+
+#navbar-opaque {
   background-color: rgba(181, 181, 181, 0.35);
-  filter:(opacity=50);  
+  filter: (opacity=50);
   backdrop-filter: blur(8px);
 }
 
-#navbar-opaque-light{
+#navbar-opaque-light {
   background-color: rgba(255, 255, 255, 0.35);
-  filter:(opacity=50);  
+  filter: (opacity=50);
   backdrop-filter: blur(8px);
 }
 
-#navbar-opaque a{
+#navbar-opaque a {
   color: white;
 }
-#navbar-transparent{
+
+#navbar-transparent {
   background-color: transparent;
   height: 15vh;
 }
 
-.navigation-funciones{
+.navigation-funciones {
   position: relative;
   bottom: -19px;
   left: 50%;
@@ -1225,7 +1322,7 @@ html { scroll-behavior: smooth; }
   padding-inline-start: 0;
 }
 
-.navigation-funciones-li{
+.navigation-funciones-li {
   list-style: none;
   cursor: pointer;
   margin: 0 10px;
@@ -1234,20 +1331,21 @@ html { scroll-behavior: smooth; }
   padding: 3px 3px 0;
   opacity: 0.7;
   transition: 0.5s;
-} 
-  
-.overlaps{
+}
+
+.overlaps {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
 }
-.parr-black-small{
+
+.parr-black-small {
   font-family: Sequel_Sans_Light_Head;
   color: #000;
   font-size: 2vh;
 }
 
-.parr-creditcard-calltoaction{
+.parr-creditcard-calltoaction {
   color: #000;
   font-size: 2vh;
   font-family: Sequel_Sans_Light_Head;
@@ -1256,43 +1354,45 @@ html { scroll-behavior: smooth; }
   align-self: flex-start;
   font-weight: bold;
 }
-.parr-goldish{
+
+.parr-goldish {
   color: #e0c5ac;
   font-family: Telegraf_Light;
   font-size: 3vh;
 }
 
 
-.parr-white{
+.parr-white {
   color: #ffff;
   font-family: Sequel_Sans_Light_Head;
   font-size: 2.5vh;
 }
 
-.parr-white-small{
+.parr-white-small {
   color: #ffff;
   font-family: Sequel_Sans_Light_Head;
   font-size: 2vh;
 }
-.parr-white-square{
+
+.parr-white-square {
   color: #ffff;
   font-family: 'Monora';
   font-size: 2.5vh;
 }
 
-.parr-piel{
+.parr-piel {
   color: #f3be9a;
   font-family: Telegraf_Light;
   font-size: 3vh;
 }
 
-.parr-orange{
+.parr-orange {
   color: #e69e6c;
   font-family: Telegraf_Light;
   font-size: 3vh;
 }
 
-.parr-vino{
+.parr-vino {
   color: #863a20;
   font-family: Telegraf_Light;
   font-size: 3vh;
@@ -1307,55 +1407,58 @@ html { scroll-behavior: smooth; }
   font-size: 2vh;
 } */
 
-.black-card{
+.black-card {
   /* background-color: black; */
   background-image: url('Images/Inversiones/Negro.jpg');
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.685);
   background-position: center;
   background-size: cover;
-  
+
 }
-.blue-card{
-  background-color: #3178EC ;
+
+.blue-card {
+  background-color: #3178EC;
 }
-.bluepearl-card{
+
+.bluepearl-card {
   background-color: #EBF3FC;
   min-height: 100vh;
 
 }
-.dark-green-card{
+
+.dark-green-card {
   background-image: url('Images/Inversiones/Azul.jpg');
   background-color: #02303C;
 }
 
-.peach-card{
+.peach-card {
   background-color: #fdf0e7 !important;
 }
 
-.pearl-card{
+.pearl-card {
   background-image: url('Images/CoreBancario/Blanco.jpg');
   background-color: #c4beb6;
   background-position: center;
   background-size: cover;
 }
 
-#privacy-modal-body{
+#privacy-modal-body {
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-#privacyModal-bottom-parr{
+#privacyModal-bottom-parr {
   text-align: center;
   padding-top: 3em;
   padding-bottom: 2em;
   max-width: 53%;
 }
 
-.quienes-somos-content-entry{
+.quienes-somos-content-entry {
   height: 20vh;
 }
 
-.tesoreria-section{
+.tesoreria-section {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -1369,7 +1472,7 @@ html { scroll-behavior: smooth; }
   left: 0;
 }
 
-.transparent-card{
+.transparent-card {
   background-color: transparent;
 }
 
@@ -1378,70 +1481,82 @@ html { scroll-behavior: smooth; }
 
 
 
-.row-beneficios{
+.row-beneficios {
   --bs-gutter-x: 0 !important;
 }
 
-.row-left{
+.row-left {
   width: 60%;
 }
-.row-map{
+
+.row-map {
   width: 100%;
   height: 100%;
-  margin: 0!important;
+  margin: 0 !important;
   min-height: 75vh;
 }
-.row-nuestras-oficinas{
+
+.row-nuestras-oficinas {
   padding-top: 5em;
   padding-bottom: 2em;
   text-align: center;
 }
-.row-quienes-somos{
+
+.row-quienes-somos {
   width: 100%;
   min-height: 33em;
 }
 
-.section-link{
+.section-link {
   text-decoration: none;
-  
+
 }
-.section-link-grey{
+
+.section-link-grey {
   text-decoration: none;
 }
-.section-link:hover{
+
+.section-link:hover {
   color: #676767;
 }
-.section-link-grey:hover{
+
+.section-link-grey:hover {
   color: #00303C;
 }
-.section-porque-title{
+
+.section-porque-title {
   max-width: 359px;
   text-align: center;
 }
-.section-solucion{
+
+.section-solucion {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   justify-content: space-evenly;
 }
-.section-title{
+
+.section-title {
   text-align: end;
   max-width: 15vw;
 }
-.section-title-medium{
+
+.section-title-medium {
   text-align: end;
   max-width: 21vw;
 }
 
-.section-title-large{
+.section-title-large {
   text-align: end;
   max-width: 45vw;
 }
-.section-title-latamsols{
+
+.section-title-latamsols {
   max-width: 28vw;
   text-align: end;
 }
-.socialmedia-icon{
+
+.socialmedia-icon {
   color: #494A4A;
   padding-left: 0.4em;
   padding-right: 0.4em;
@@ -1449,12 +1564,13 @@ html { scroll-behavior: smooth; }
 }
 
 
-.square{
+.square {
   width: 320px;
   height: auto;
   padding: 24px 30px;
 }
-.square-opaque{
+
+.square-opaque {
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #ffffff47 0% 0% no-repeat padding-box;
   border-radius: 33px;
@@ -1463,7 +1579,8 @@ html { scroll-behavior: smooth; }
   -webkit-backdrop-filter: blur(30px);
   /* width: 20em; */
 }
-.square-opaque-content{
+
+.square-opaque-content {
   /* width: 62%; */
   /* height: 100%; */
   text-align: center;
@@ -1472,56 +1589,63 @@ html { scroll-behavior: smooth; }
   justify-content: space-evenly;
   align-items: center;
 }
-.square-margin{
+
+.square-margin {
   margin-bottom: 40px;
 }
-.square-right{
+
+.square-right {
   width: 600px;
   height: auto;
   padding: 40px 10px;
 }
-.stairs-im{
+
+.stairs-im {
   background-image: url('Images/CoreBancario/Fondo_Escaleras.jpeg');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
 }
 
-.suncity-im{
+.suncity-im {
   background-image: url('Images/Tesoreria/Edificios.jpg');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.5);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .5);
 }
 
-.techo-im{
+.techo-im {
   background-image: url('Images/Inversiones/Fondo_Techo.jpeg');
   box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.6);
 }
-.techo-im-dark{
+
+.techo-im-dark {
   background-color: #3f3f3f;
   /* background-image: url('Images/Sofom/3.png'); */
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
   background-position: center;
   background-size: cover;
 }
-.text-right{
+
+.text-right {
   text-align: right;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.text-left{
+
+.text-left {
   text-align: left;
 }
 
-.turbines-im{
+.turbines-im {
   background-image: url('Images/Sofom/3.png');
-  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.6);
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .6);
 }
 
 
-.transparent-card{
+.transparent-card {
   background-color: transparent !important;
 }
 
-.gold-card{
+.gold-card {
   background-color: #e0c5ac !important;
 }
 
@@ -1566,13 +1690,13 @@ html { scroll-behavior: smooth; }
   z-index: 1;
 }
 
-.video-slider{
+.video-slider {
   position: relative;
   width: 100%;
   height: 100vh;
 }
 
-.video-slider-section{
+.video-slider-section {
   position: relative;
   width: 100%;
   height: 75vw;
@@ -1580,13 +1704,13 @@ html { scroll-behavior: smooth; }
   text-align: -webkit-center;
 }
 
-.video-slider-vid{
+.video-slider-vid {
   position: relative;
   top: 5%;
   left: 0%;
   max-width: 80%;
   object-fit: cover;
-  
+
   object-position: center;
 }
 
@@ -1596,16 +1720,16 @@ html { scroll-behavior: smooth; }
   transition: 0.5s;
 } */
 
-.video-slider-icon:hover{
+.video-slider-icon:hover {
   height: 15vw;
 }
 
-section .navigation-funciones li img{
+section .navigation-funciones li img {
   height: 10vw;
   transition: 0.5s;
 }
 
-section .navigation-funciones li:hover{
+section .navigation-funciones li:hover {
   opacity: 1;
 }
 
@@ -1614,40 +1738,47 @@ section .navigation-funciones li:hover{
 /*////////////////////////////////////////////////////////////*/
 
 
-.height-25{
+.height-25 {
   height: 25vh;
 }
-.height-30{
+
+.height-30 {
   height: 30vh;
 }
-.height-60{
+
+.height-60 {
   height: 60vh;
 }
-.height-70{
+
+.height-70 {
   height: 70vh;
 }
-.height-75{
+
+.height-75 {
   height: 75vh;
 }
-.height-85{
+
+.height-85 {
   height: 85vh;
 }
-.height-100{
+
+.height-100 {
   height: 100vh;
 }
-.height-150{
+
+.height-150 {
   height: 150vh;
 }
 
 
 
-.icono-velta{
+.icono-velta {
   display: block;
   height: auto;
   width: 15vh;
 }
 
-.img-ally{
+.img-ally {
   position: absolute;
   top: -30px;
   left: 2%;
@@ -1657,15 +1788,16 @@ section .navigation-funciones li:hover{
 }
 
 
-.img-bateria{
+.img-bateria {
   width: 30vh;
   height: auto;
 }
 
-.logo-azell{
+.logo-azell {
   width: 300px;
 }
-.logo-velta{
+
+.logo-velta {
   display: block;
   height: auto;
   width: 82px;
@@ -1674,49 +1806,57 @@ section .navigation-funciones li:hover{
   /*filter: invert(99%) sepia(100%) saturate(463%) hue-rotate(201deg) brightness(120%) contrast(100%);*/
 }
 
-.logo-urbank{
+.logo-urbank {
   width: inherit;
 }
-.logo-urbank-tesoreria{
+
+.logo-urbank-tesoreria {
   width: 90px;
   height: fit-content;
   align-self: center;
 }
-.logo-urbk-navbar{
+
+.logo-urbk-navbar {
   width: 41px;
 }
 
-.middle{
+.middle {
   align-self: center;
 }
 
-.min-height-100{
+.min-height-100 {
   min-height: 100vh;
 }
-.min-height-95{
+
+.min-height-95 {
   min-height: 95vh;
 }
-.min-height-90{
+
+.min-height-90 {
   min-height: 90vh;
 }
-.min-height-70{
+
+.min-height-70 {
   min-height: 70vh;
 }
-.min-width-300{
+
+.min-width-300 {
   min-width: 300px;
 }
-.min-width-50vw{
-  min-width:50vw;
+
+.min-width-50vw {
+  min-width: 50vw;
 }
-.min-width-65vw{
+
+.min-width-65vw {
   min-width: 65vw;
 }
 
-.mustard-card{
+.mustard-card {
   background-color: #f3be9a !important;
 }
 
-.orange-card{
+.orange-card {
   background-color: #e69e6c !important;
 }
 
@@ -1724,33 +1864,33 @@ section .navigation-funciones li:hover{
   background-image: linear-gradient(to left, rgba(0,0,0,0.75) -26.48%, rgba(0,0,0,0.75) 73.52%);
 }*/
 
-.runway_im{
+.runway_im {
   /* height: 75vh; */
   background-image: url('Images/Home/FondoPasillo.png');
   background-position: center;
   background-size: cover;
 }
 
-.text-small{
+.text-small {
   font-size: x-small;
 }
 
-.turbinas_im{
+.turbinas_im {
   height: 100vh;
   background-image: url('Images/turbinas.jpg');
 }
 
 
-.white-card{
+.white-card {
   background-color: white;
 }
 
-.wine-card{
+.wine-card {
   background-color: #883c1c !important;
 }
 
 
-.formscolor{
+.formscolor {
   border-radius: 8.5px !important;
   background-color: #494a4a !important;
   color: #ebf3fc !important;
@@ -1764,44 +1904,45 @@ section .navigation-funciones li:hover{
 
 
 
-.navbar-toggler{
+.navbar-toggler {
   border: none !important;
 }
 
-.no-margin{
+.no-margin {
   margin: 0;
 }
 
-.parr-black{
+.parr-black {
   color: #676767;
   font-family: Sequel_Sans_Light_Head;
-  font-size: 2.5vh;/*Era 3vh*/
+  font-size: 2.5vh;
+  /*Era 3vh*/
 }
 
-.parr-black-bold{
+.parr-black-bold {
   color: #676767;
   font-family: Sequel_Sans_Medium_Head;
   font-size: 2.4vh;
 }
 
 
-.parr-white-bold{
+.parr-white-bold {
   color: #ffff;
   font-family: Sequel_Sans_Medium_Head;
   font-size: 3vh;
 }
 
-.parr-small{
+.parr-small {
   font-size: 2vh !important;
 }
 
 
 
-.parr-orange{
+.parr-orange {
   color: #e69e6c;
 }
 
-.parr-vino{
+.parr-vino {
   color: #863a20;
 }
 
@@ -1818,13 +1959,14 @@ section .navigation-funciones li:hover{
 }
 
 body {
-    background-color: #f1f0ee !important;
+  background-color: #f1f0ee !important;
 }
-.body-white{
+
+.body-white {
   background-color: #f1f0ee;
 }
 
-body h1{
+body h1 {
   color: #ebf3fc
 }
 
@@ -1843,17 +1985,17 @@ body h1{
 }
 
 .homeSection1 {
-  background-color:#101820; 
+  background-color: #101820;
   color: #f1f0ee;
 }
 
 .homeSection2 {
-  background-color:#f1f0ee;
+  background-color: #f1f0ee;
   color: black;
 }
 
 .homeSection3 {
-  background-color:#3178ec;
+  background-color: #3178ec;
 }
 
 .context {
@@ -1876,10 +2018,10 @@ body h1{
 }
 
 /*Default version*/
-@font-face{
+@font-face {
   font-family: 'Monora';
   src: url(https://cdn.glitch.com/2bc9649b-c408-41b1-b699-ab68726ff9f2%2FMonorama%20Medium.otf?v=1629910210228);
-  format:('opentype');
+  format: ('opentype');
 }
 
 @font-face {
@@ -1898,17 +2040,17 @@ body h1{
   src: url("Fonts/Telegraf-Light.otf") format("opentype");
 }
 
-@font-face{
+@font-face {
   font-family: 'Sequel_Sans_Light_Head';
   src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Light\ Head.ttf") format("opentype");
 }
 
-@font-face{
+@font-face {
   font-family: 'Sequel_Sans_Book_Head';
   src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Book\ Head.ttf") format("opentype");
 }
 
-@font-face{
+@font-face {
   font-family: 'Sequel_Sans_Medium_Head';
   src: url("Fonts/Sequel_Sans/Sequel\ Sans\ Medium\ Head.ttf") format("opentype");
 }
@@ -1925,220 +2067,272 @@ body h1{
   }
 }
 
-@media (min-width:768px){
-    /*Desktop css*/
-    .bgd-light a {
-      color: black !important;
-    }
-    .black-creditcard-mobile{
-      display: none;
-    }
-    #col-quienes-somos-right{
-      padding-right: 7em;
-    }
-    .col-content-nuestrasoficinas{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      min-height: 100%;
-    }
-    .core-grid{
-      top: -9vh;
-    }
-    .creditcard-top-mobile{
-      display: none;
-    }
-    .div-america{
-      transform: translate(0px, 0px);
-    }
-    /* .div-asia{
+@media (min-width:768px) {
+
+  /*Desktop css*/
+  .bgd-light a {
+    color: black !important;
+  }
+
+  .black-creditcard-mobile {
+    display: none;
+  }
+
+  #col-quienes-somos-right {
+    padding-right: 7em;
+  }
+
+  .col-content-nuestrasoficinas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 100%;
+  }
+
+  .core-grid {
+    top: -9vh;
+  }
+
+  .creditcard-top-mobile {
+    display: none;
+  }
+
+  .div-america {
+    transform: translate(0px, 0px);
+  }
+
+  /* .div-asia{
       transform: translate(-80px, -22px);
     } */
-    /* .float-solicitar{
+  /* .float-solicitar{
       display: none!important;
     } */
-    
-    #float-solicitar-home{
-      display: none;
-    }
-    #float-solicitar-contacto-arriba{
-      display: flex;
-      top: 46%;
-      left: 83%;
-      width: 190px;
-      height: 35px;
-    }
-    #float-solicitar-contacto-abajo{
-      display: none!important;
-    }
-    #float-solicitar-sobre-abajo{
-      display: none!important;
-    }
-    
-    
-   
 
-    .h2-slim-card{
-      margin-bottom: 0%;
-      font-size: 3.5vh !important;
-    }
-    .icon-col{
-      max-width: 330px !important;
-    }
-    /* .navbar-collapse{
+  #float-solicitar-home {
+    display: none;
+  }
+
+  #float-solicitar-contacto-arriba {
+    display: flex;
+    top: 46%;
+    left: 83%;
+    width: 190px;
+    height: 35px;
+  }
+
+  #float-solicitar-contacto-abajo {
+    display: none !important;
+  }
+
+  #float-solicitar-sobre-abajo {
+    display: none !important;
+  }
+
+
+
+
+  .h2-slim-card {
+    margin-bottom: 0%;
+    font-size: 3.5vh !important;
+  }
+
+  .icon-col {
+    max-width: 330px !important;
+  }
+
+  /* .navbar-collapse{
       padding-right: 5vw;
     } */
-    #mapa-america{
-      width: 80%;
-      margin-right: 4em;
-      /* height: 55vh; */
-      /* height: 100%; */
-    }
-    #mapa-asia{
-      height: 67vh;
-    }
-    .map-container{
-      justify-content: start;
-    }
-    .modal-dialog{
-      max-width: 55vw!important;
-      margin-top: 15vh!important;
-    }
-    .modal-row{
-      max-width: 91%;
-    }
-    .parr-card-slim{
-      padding-right: 5vh;
-      padding-top: 5vh;
-      font-family: Telegraf_Light;
-      font-size: 1.5rem;
-    }
-    
-    .row-map{
-      padding-bottom: 2em;
-    }
-    .row-section-porque{
-      height: 85vh;
-    }
-    .section-porque{
-      height: 85vh;
-    }
-    .section-text-medium{
-      max-width: 36vw;
-    }
-    .white-card-div{
-      max-width: 334px;
-    }
+  #mapa-america {
+    width: 80%;
+    margin-right: 4em;
 
-    .full-text { display: inline-block; }
-    .short-text { display: none; }
+  }
+
+  #mapa-asia {
+    height: 67vh;
+  }
+
+  .map-container {
+    justify-content: start;
+  }
+
+  .modal-dialog {
+    max-width: 55vw !important;
+    margin-top: 15vh !important;
+  }
+
+  .modal-row {
+    max-width: 91%;
+  }
+
+  .parr-card-slim {
+    padding-right: 5vh;
+    padding-top: 5vh;
+    font-family: Telegraf_Light;
+    font-size: 1.5rem;
+  }
+
+  .row-map {
+    padding-bottom: 2em;
+  }
+
+  .row-section-porque {
+    height: 85vh;
+  }
+
+  .section-porque {
+    height: 85vh;
+  }
+
+  .section-text-medium {
+    max-width: 36vw;
+  }
+
+  .white-card-div {
+    max-width: 334px;
+  }
+
+  .full-text {
+    display: inline-block;
+  }
+
+  .short-text {
+    display: none;
+  }
 }
 
 @media only screen and (device-width: 768px) {
+
   /* For general iPad layouts */
   .bgd-light a {
     color: #f1f0ee !important;
   }
-  .blue-tesoreria{
+
+  .blue-tesoreria {
     height: 100vh;
   }
-  .bluepearl-card{
+
+  .bluepearl-card {
     height: 150vh;
     top: -51vh;
   }
-  .containter-contacto{
+
+  .containter-contacto {
     height: 30vh;
     min-width: 300px;
     width: 50vw !important;
     text-align: center;
   }
-  .col-asia{
+
+  .col-asia {
     padding-top: 11vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .div-america{
+
+  .div-america {
     justify-content: center;
     align-items: center;
-    
+
   }
 
-  .footer-col{
+  .footer-col {
     padding-bottom: 2em;
   }
 
-  .parr-card-slim{
+  .parr-card-slim {
     padding-right: 1vh;
     padding-top: 1vh;
     font-family: Telegraf_Light;
     font-size: 3vh;
   }
-  .h2-slim-card{
+
+  .h2-slim-card {
     margin-bottom: 0%;
     font-size: 3.5vh !important;
   }
-  .h2-small-white{
+
+  .h2-small-white {
     font-size: 3vh;
   }
-  .icon-col{
+
+  .icon-col {
     text-align: center;
   }
-  .img-uniswap{
-    top: 11vh; 
+
+  .img-uniswap {
+    top: 11vh;
     left: 54%;
     height: 21vh;
     opacity: 33%;
   }
-  
-  .logos-sofom-img{
+
+  .logos-sofom-img {
     width: 32vw;
   }
-  .navbar-collapse{
+
+  .navbar-collapse {
     padding-right: 0;
   }
+
   .opaque-50 {
-    background-image: linear-gradient(to left, rgba(0,0,0,0.75) -26.48%, rgba(0,0,0,0.75) 73.52%);
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.75) -26.48%, rgba(0, 0, 0, 0.75) 73.52%);
   }
-  .pearl-card{
+
+  .pearl-card {
     top: -51vh;
   }
-  .row-corebancario{
+
+  .row-corebancario {
     padding-bottom: 10vh;
   }
-  
-  .section-title{
+
+  .section-title {
     align-self: auto;
   }
-  .section-title-medium{
+
+  .section-title-medium {
     text-align: center;
     max-width: 75vw;
   }
-  .section-text-column{
+
+  .section-text-column {
     align-items: center;
   }
-  .section-text-row{
+
+  .section-text-row {
     padding-top: 10vh;
     padding-bottom: 10vh;
   }
-  .section-text-medium{
+
+  .section-text-medium {
     max-width: 70vw;
   }
-  .section-metodologia{
+
+  .section-metodologia {
     top: -53vh;
   }
-  .subtitle-card-twocols{
+
+  .subtitle-card-twocols {
     font-size: 2vh;
   }
-  .tesoreria-section{
+
+  .tesoreria-section {
     top: -50vh;
   }
-  
-  .short-text { display: inline-block; }
-  .full-text { display: none; }
 
-  .uniswap-title{
+  .short-text {
+    display: inline-block;
+  }
+
+  .full-text {
+    display: none;
+  }
+
+  .uniswap-title {
     text-align: center;
     max-width: none;
   }
@@ -2155,19 +2349,23 @@ body h1{
   .bgd-light a {
     color: black !important;
   }
-  .black-creditcard-mobile{
+
+  .black-creditcard-mobile {
     display: none;
   }
-  #col-quienes-somos-right{
+
+  #col-quienes-somos-right {
     padding-right: 7em;
   }
-  
-  .core-grid{
+
+  .core-grid {
     top: -9vh;
   }
-  .creditcard-top-mobile{
+
+  .creditcard-top-mobile {
     display: none;
   }
+
   /* .div-america{
     transform: translate(0px, 0px);
   }
@@ -2177,439 +2375,547 @@ body h1{
   /* .float-solicitar{
     display: none!important;
   } */
-  
-  #float-solicitar-home{
+
+  #float-solicitar-home {
     display: none;
   }
-  #float-solicitar-contacto{
+
+  #float-solicitar-contacto {
     display: flex;
     top: 7%;
     left: 83%;
     width: 190px;
     height: 35px;
   }
- 
 
-  .h2-slim-card{
+
+  .h2-slim-card {
     margin-bottom: 0%;
     font-size: 3.5vh !important;
   }
-  .icon-col{
+
+  .icon-col {
     max-width: 330px !important;
   }
+
   /* .navbar-collapse{
     padding-right: 5vw;
   } */
-  #mapa-america{
+  #mapa-america {
     width: 100%;
     height: 75vh;
   }
-  #mapa-asia{
+
+  #mapa-asia {
     height: 67vh;
   }
-  .map-container{
+
+  .map-container {
     justify-content: start;
   }
-  
-  .parr-card-slim{
+
+  .parr-card-slim {
     padding-right: 5vh;
     padding-top: 5vh;
     font-family: Telegraf_Light;
     font-size: 1.5rem;
   }
-  .row-map{
+
+  .row-map {
     padding-bottom: 2em;
   }
-  .row-section-porque{
+
+  .row-section-porque {
     min-height: 85vh;
   }
-  .row-quienes-somos{
+
+  .row-quienes-somos {
     min-height: 33em;
   }
-  .section-porque{
+
+  .section-porque {
     min-height: 85vh;
   }
-  .section-text-medium{
+
+  .section-text-medium {
     max-width: 36vw;
   }
-  .white-card-div{
+
+  .white-card-div {
     max-width: 334px;
   }
 
-  .full-text { display: inline-block; }
-  .short-text { display: none; }
+  .full-text {
+    display: inline-block;
+  }
+
+  .short-text {
+    display: none;
+  }
 
 }
 
-@media (max-width:1030px){
+@media (max-width:1030px) {
+
   /*Between MD and LG screen size css*/
-  .blue-tesoreria-div{
+  .blue-tesoreria-div {
     max-width: 75vw;
     height: 60vh;
   }
-  .footer-col{
+
+  .footer-col {
     padding-bottom: 2em;
   }
-  .modal-dialog{
-    max-width: 65vw!important;
+
+  .modal-dialog {
+    max-width: 65vw !important;
   }
-  .parr-creditcard-calltoaction{
+
+  .parr-creditcard-calltoaction {
     width: 78%;
   }
-  .row-left{
+
+  .row-left {
     width: 100%;
   }
-  .tesoreria-section{
+
+  .tesoreria-section {
     top: -37vh;
 
   }
 }
 
-@media (max-width:768px){
+@media (max-width:768px) {
+
   /*MD screen size css*/
-  .blue-tesoreria{
+  .blue-tesoreria {
     height: 100vh;
   }
-  .blue-tesoreria-div{
+
+  .blue-tesoreria-div {
     max-width: none;
   }
-  .core-parr{
+
+  .core-parr {
     max-width: 35vw !important;
   }
-  .laptop-im{
+
+  .laptop-im {
     height: 50vh;
   }
 }
 
- @media (max-width:769px) and (max-height:1025px) {
-    /*Mobile css*/
-    .bgd-light a {
-      color: #f1f0ee !important;
-    }
-    .blackcards-im{
-      background-position: 69% 0%;
-      background-image: url('Images/SobreNosotros/Dos\ Tarjetas\ Mobile@2x.png');
-    }
-    .black-card-sofom{
-      top: -49vh;
-    }
-    .black-section-exchange{
-      top: -59vh;
-    }
-    .blue-tesoreria{
-      height: 100vh;
-    }
-    .bluepearl-card{
-      height: 150vh;
-      top: -51vh;
-    }
-    .btn-urbankcard-black{
-      display: none!important;
-    }
-    .btn-tesoreria{
-      width: 260px;
-      height: 73px;
-      display: flex!important;
-    }
-    .cardForm{
-      color: white;
-    }
-    .cardtable-im-content{
-      justify-content: start;
-    }
-    .col-america .map-container{
-      padding: 0;
-    }
-    .col-asia{
-      padding-top: 0;
-      padding-right: 0!important;
-      padding-left: 0!important;
-      min-height: 80vh;
-    }
-    .col-asia .map-container{
-      padding-right: 0;
-      padding-top: 2em;
-    }
-    /* .col-auxiliar{
+@media (max-width:769px) and (max-height:1025px) {
+
+  /*Mobile css*/
+  .bgd-light a {
+    color: #f1f0ee !important;
+  }
+
+  .blackcards-im {
+    background-position: 69% 0%;
+    background-image: url('Images/SobreNosotros/Dos\ Tarjetas\ Mobile@2x.png');
+  }
+
+  .black-card-sofom {
+    top: -49vh;
+  }
+
+  .black-section-exchange {
+    top: -59vh;
+  }
+
+  .blue-tesoreria {
+    height: 100vh;
+  }
+
+  .bluepearl-card {
+    height: 150vh;
+    top: -51vh;
+  }
+
+  .btn-urbankcard-black {
+    display: none !important;
+  }
+
+  .btn-tesoreria {
+    width: 260px;
+    height: 73px;
+    display: flex !important;
+  }
+
+  .cardForm {
+    color: white;
+  }
+
+  .cardtable-im-content {
+    justify-content: start;
+  }
+
+  .col-america .map-container {
+    padding: 0;
+  }
+
+  .col-asia {
+    padding-top: 0;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    min-height: 80vh;
+  }
+
+  .col-asia .map-container {
+    padding-right: 0;
+    padding-top: 2em;
+  }
+
+  /* .col-auxiliar{
       display: none;
     } */
-    .col-content-creditcard{
-      width: 100%;
-    }
-    .col-content-nuestras-oficinas{
-      text-align: center;
-      padding-left: 0;
-    }
-    .col-content-nuestrasoficinas{
-      min-height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-      text-align: center;
-    }
-    
-    #col-content-nuestras-oficinas-nums, #col-content-nuestras-oficinas-nums2{
-      padding-bottom: 3em;
-    }
-    
-    .col-creditcard-left{
-      align-items: center;
-      padding: 0!important;
-    }
-    .col-creditcard-right{
-      align-items: center;
-      padding: 0!important;
-    }
-    .col-creditcard-right .col-content-creditcard{
-      margin-right: 0;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      
-    }
-    .col-creditcard-left .col-content-creditcard{
-      margin-left: 0;
-      padding-bottom: 4em;
-    }
-    .col-quienes-somos-content{
-      width: 92%;
-    }
-    #col-quienes-somos-content-right{
-      align-items: baseline;
-    }
-   
-    
-    .containter-contacto{
-      height: 30vh;
-      min-width: 300px;
-      width: 50vw !important;
-      text-align: center;
-    }
-    .core-grid{
-      top: -159vh;
-    }
-    .core-parr{
-      max-width: 50vw !important;
-    }
-    .core-row h2{
-      max-width: 60vw;
-    }
-    .creditcard-form-col{
-      width: 100%!important;
-      padding-right: 0;
-    }
-    .creditcard-calltoaction{
-      height: 85vh;
-    }
-    .creditcard-top-row{
-      display: none!important;
-    }
-    .dark-green-card-productos{
-      top: -49vh;
-    }
-    .desk-im{
-      background-position: 42% 0%;
-    }
-    .div-america{
-      justify-content: center;
-    }
-    .div-asia{
-      position: relative;
-      height: 430px;
-      width: 100%;
-    }
-    .div-text-contacto{
-      width: 100%;
-    }
-    .float-solicitar{
-      display: flex!important;
-    }
-    
-    #float-solicitar-contacto, #float-solicitar-home{
-      height: 40px;
-    }
-    #float-solicitar-home{
-      position: absolute;
-    }
-    #float-solicitar-sobre-arriba{
-      display: none!important;
-    }
-    #float-solicitar-sobre-abajo{
-      display: none!important;
-    }
-    #float-solicitar-contacto-abajo{
-      display: none!important;
-    }
-    #float-solicitar-contacto-arriba{
-      display: none!important;
-    }
-    .h2-big-white{
-      font-size: 4vh;
-    }
-    .h2-slim-card{
-      margin-bottom: 0%;
-      font-size: 3.5vh !important;
-    }
-    .h2-small-white{
-      font-size: 2.7vh;
-    }
-    .icon-col{
-      text-align: center;
-    }
-    .img-uniswap{
-      top: 11vh; 
-      left: 54%;
-      height: 21vh;
-      opacity: 33%;
-    }
+  .col-content-creditcard {
+    width: 100%;
+  }
 
-    .img-tarjeta{
-      width: 44vh;
-    }
-    
-    .img-app{
-      height: 55vh;
-    }
-    .logo-azell{
-      width: 241px;
-    }
-    .logos-sofom-img{
-      width: 6em;
-    }
-    #mapa-america{
-      width: 100%;
-    }
-    #mapa-asia{
-      height: 100%;
-      width: 100%;
-      object-position: -20% 50%;
-      object-fit: cover;
-      position: absolute;
-      inset: 0px;
-      /* height: 53vh; */
-      /* transform: translate(76px,-10px); */
-    }
-    .mapa-contacto{
-      height: 100%;
-    }
-    .map-container{
-      justify-content: center;
-    }
-    .modal-dialog{
-      max-width: 100%!important;
-    }
-    .navbar-collapse{
-      padding-right: 0;
-    }
-    .navbar-nav{
-      display: flex;
-    }
-    .navbar-nav .nav-item{
-      width: 7em;
-    }
-    .navbar-permanent-content{
-      display: flex!important;
-    }
-    
-    /* .nav-link{
+  .col-content-nuestras-oficinas {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .col-content-nuestrasoficinas {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  #col-content-nuestras-oficinas-nums,
+  #col-content-nuestras-oficinas-nums2 {
+    padding-bottom: 3em;
+  }
+
+  .col-creditcard-left {
+    align-items: center;
+    padding: 0 !important;
+  }
+
+  .col-creditcard-right {
+    align-items: center;
+    padding: 0 !important;
+  }
+
+  .col-creditcard-right .col-content-creditcard {
+    margin-right: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+  }
+
+  .col-creditcard-left .col-content-creditcard {
+    margin-left: 0;
+    padding-bottom: 4em;
+  }
+
+  .col-quienes-somos-content {
+    width: 92%;
+  }
+
+  #col-quienes-somos-content-right {
+    align-items: baseline;
+  }
+
+
+  .containter-contacto {
+    height: 30vh;
+    min-width: 300px;
+    width: 50vw !important;
+    text-align: center;
+  }
+
+  .core-grid {
+    top: -159vh;
+  }
+
+  .core-parr {
+    max-width: 50vw !important;
+  }
+
+  .core-row h2 {
+    max-width: 60vw;
+  }
+
+  .creditcard-form-col {
+    width: 100% !important;
+    padding-right: 0;
+  }
+
+  .creditcard-calltoaction {
+    height: 85vh;
+  }
+
+  .creditcard-top-row {
+    display: none !important;
+  }
+
+  .dark-green-card-productos {
+    top: -49vh;
+  }
+
+  .desk-im {
+    background-position: 42% 0%;
+  }
+
+  .div-america {
+    justify-content: center;
+  }
+
+  .div-asia {
+    position: relative;
+    height: 430px;
+    width: 100%;
+  }
+
+  .div-text-contacto {
+    width: 100%;
+  }
+
+  .float-solicitar {
+    display: flex !important;
+  }
+
+  #float-solicitar-contacto,
+  #float-solicitar-home {
+    height: 40px;
+  }
+
+  #float-solicitar-home {
+    position: absolute;
+  }
+
+  #float-solicitar-sobre-arriba {
+    display: none !important;
+  }
+
+  #float-solicitar-sobre-abajo {
+    display: none !important;
+  }
+
+  #float-solicitar-contacto-abajo {
+    display: none !important;
+  }
+
+  #float-solicitar-contacto-arriba {
+    display: none !important;
+  }
+
+  .h2-big-white {
+    font-size: 4vh;
+  }
+
+  .h2-slim-card {
+    margin-bottom: 0%;
+    font-size: 3.5vh !important;
+  }
+
+  .h2-small-white {
+    font-size: 2.7vh;
+  }
+
+  .icon-col {
+    text-align: center;
+  }
+
+  .img-uniswap {
+    top: 11vh;
+    left: 54%;
+    height: 21vh;
+    opacity: 33%;
+  }
+
+  .img-tarjeta {
+    width: 44vh;
+  }
+
+  .img-app {
+    height: 55vh;
+  }
+
+  .logo-azell {
+    width: 241px;
+  }
+
+  .logos-sofom-img {
+    width: 6em;
+  }
+
+  #mapa-america {
+    width: 100%;
+  }
+
+  #mapa-asia {
+    height: 100%;
+    width: 100%;
+    object-position: -20% 50%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0px;
+    /* height: 53vh; */
+    /* transform: translate(76px,-10px); */
+  }
+
+  .mapa-contacto {
+    height: 100%;
+  }
+
+  .map-container {
+    justify-content: center;
+  }
+
+  .modal-dialog {
+    max-width: 100% !important;
+  }
+
+  .navbar-collapse {
+    padding-right: 0;
+  }
+
+  .navbar-nav {
+    display: flex;
+  }
+
+  .navbar-nav .nav-item {
+    width: 7em;
+  }
+
+  .navbar-permanent-content {
+    display: flex !important;
+  }
+
+  /* .nav-link{
       color: rgb(255 255 255 / 75%)!important;
       
     } */
-    .opaque-50 {
-      background-image: linear-gradient(to left, rgba(0,0,0,0.75) -26.48%, rgba(0,0,0,0.75) 73.52%);
-    }
-    .parr-card-slim{
-      padding-right: 1vh;
-      padding-top: 1vh;
-      font-family: Telegraf_Light;
-      font-size: 3vh;
-    }
-    .parr-white{
-      font-size: 2.5vh;
-    }
-    .pearl-card{
-      top: -51vh;
-    }
-    #privacyModal-bottom-parr{
-      max-width: 70%;
-    }
-    #privacyModal-btn{
-      display: flex!important;
-    }
-    .quienes-somos-content-entry{
-      height: auto;
-      padding-bottom: 2em;
-    }
-    .row-corebancario{
-      padding-bottom: 10vh;
-    }
-    .row-left{
-      width: 100%;
-    }
-    
-    .section-porque-title{
-      padding-top: 2em;
-    }
-    .section-solucion{
-      top: -58vh;
-    }
-    .section-title{
-      align-self: auto;
-      max-width: none;
-    }
-    
-    .section-title-medium{
-      text-align: center;
-      max-width: 75vw;
-    }
-    .section-title-latamsols{
-      align-self: center;
-      padding-bottom: 3em;
-    }
-    .section-text-column{
-      align-items: center;
-    }
-    .section-text-row{
-      padding-top: 10vh;
-      padding-bottom: 10vh;
-    }
-    .section-text-medium{
-      max-width: 70vw;
-    }
-    .section-metodologia{
-      top: -53vh;
-    }
-    .solucion-personal{
-      padding-bottom: 5vh;
-    }
-    .subtitle-card-twocols{
-      font-size: 3vh;
-    }
-    .tesoreria-section{
-      top: -50vh;
-    }
-    
-    .short-text { display: inline-block; }
-    .full-text { display: none; }
+  .opaque-50 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.75) -26.48%, rgba(0, 0, 0, 0.75) 73.52%);
+  }
 
-    .uniswap-title{
-      text-align: center;
-      max-width: none;
-    }
+  .parr-card-slim {
+    padding-right: 1vh;
+    padding-top: 1vh;
+    font-family: Telegraf_Light;
+    font-size: 3vh;
+  }
 
- }
+  .parr-white {
+    font-size: 2.5vh;
+  }
 
- @media (max-width:576px) and (max-height:1024px) {
+  .pearl-card {
+    top: -51vh;
+  }
+
+  #privacyModal-bottom-parr {
+    max-width: 70%;
+  }
+
+  #privacyModal-btn {
+    display: flex !important;
+  }
+
+  .quienes-somos-content-entry {
+    height: auto;
+    padding-bottom: 2em;
+  }
+
+  .row-corebancario {
+    padding-bottom: 10vh;
+  }
+
+  .row-left {
+    width: 100%;
+  }
+
+  .section-porque-title {
+    padding-top: 2em;
+  }
+
+  .section-solucion {
+    top: -58vh;
+  }
+
+  .section-title {
+    align-self: auto;
+    max-width: none;
+  }
+
+  .section-title-medium {
+    text-align: center;
+    max-width: 75vw;
+  }
+
+  .section-title-latamsols {
+    align-self: center;
+    padding-bottom: 3em;
+  }
+
+  .section-text-column {
+    align-items: center;
+  }
+
+  .section-text-row {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+
+  .section-text-medium {
+    max-width: 70vw;
+  }
+
+  .section-metodologia {
+    top: -53vh;
+  }
+
+  .solucion-personal {
+    padding-bottom: 5vh;
+  }
+
+  .subtitle-card-twocols {
+    font-size: 3vh;
+  }
+
+  .tesoreria-section {
+    top: -50vh;
+  }
+
+  .short-text {
+    display: inline-block;
+  }
+
+  .full-text {
+    display: none;
+  }
+
+  .uniswap-title {
+    text-align: center;
+    max-width: none;
+  }
+
+}
+
+@media (max-width:576px) and (max-height:1024px) {
+
   /*Mobile extra small css*/
-  .floatcard-im{
+  .floatcard-im {
     height: 13em;
   }
-  .fallcard-im{
+
+  .fallcard-im {
     height: 13em;
   }
-  #mapa-asia{
+
+  #mapa-asia {
     height: 91vw;
   }
- }
+}
 
 .video-animation {
   max-width: 90%;
@@ -2625,35 +2931,42 @@ body h1{
 #content {
   position: relative;
 }
+
 #content img {
   position: absolute;
   top: 0px;
   right: 0px;
 }
 
-@media (max-width: 2400px){
-  .square-right{
+@media (max-width: 2400px) {
+  .square-right {
     width: 35%;
     height: auto;
     padding: 40px 10px;
   }
-  .square{
+
+  .square {
     width: 30%;
     height: auto;
   }
 }
-@media (max-width: 2000px){
-  .btn-solicitar-arriba{
-    top: 26%!important;
+
+@media (max-width: 2000px) {
+  .btn-solicitar-arriba {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
-@media (max-width: 1500px){
-  .square-right{
+
+@media (max-width: 1500px) {
+  .square-right {
     width: 260px;
     height: auto;
     padding: 40px 10px;
   }
-  .square{
+
+  .square {
     width: 240px;
     height: auto;
   }
